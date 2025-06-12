@@ -24,7 +24,7 @@ static CAN_message_t CAN_msg ;
 void setup() {
   // setup canubs
   canb.begin(); //automatic retransmission can be done using arg "true"
-  canb.setBaudRate(500000); //500kbps
+  canb.setBaudRate(62500); //62.5kbps
   // setup usb serial
   usb.begin(USB_BAUD);
 
