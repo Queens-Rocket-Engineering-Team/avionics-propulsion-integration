@@ -5,8 +5,8 @@
 
 #define CAN_RX_PIN PB8
 #define CAN_TX_PIN PB9
-#define USB_RX_PIN PA10
-#define USB_TX_PIN PA9
+#define USB_RX_PIN PC13 // NOT CONNECTED
+#define USB_TX_PIN PC14 // NOT CONNECTED
 #define DB_LED_PIN PA15
 
 #define USB_BAUD 9600 // FUCK IT 9600 BOYSSS
