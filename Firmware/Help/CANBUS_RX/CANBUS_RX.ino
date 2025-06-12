@@ -7,6 +7,7 @@
 #define CAN_TX_PIN PB9
 #define USB_RX_PIN PA10
 #define USB_TX_PIN PA9
+#define DB_LED_PIN PA15
 
 #define USB_BAUD 9600 // FUCK IT 9600 BOYSSS
 
@@ -26,6 +27,8 @@ void setup() {
   canb.setBaudRate(500000); //500kbps
   // setup usb serial
   usb.begin(USB_BAUD);
+
+  pinMode(DB_LED_PIN, OUTPUT);
 }//setup()
 
 void loop() {
@@ -38,6 +41,6 @@ void loop() {
     usb.print(CAN_msg.buf[1], HEX);
     usb.print(CAN_msg.buf[2], HEX);
     usb.print(CAN_msg.buf[3], HEX);
+    digitalWrite(DB_LED_PIN, !digitalRead(DB_LED_PIN));
   }//while
-  delay(250);
 }//loop()
