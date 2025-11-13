@@ -10,29 +10,6 @@
 		(company "Queen's Rocket Engineering Team")
 	)
 	(lib_symbols)
-	(rectangle
-		(start 100.33 72.39)
-		(end 148.59 113.03)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 6d92e4da-7789-4254-9e74-57e488e4474a)
-	)
-	(label "ESP32 Breakout & COMM"
-		(at 100.33 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ef16a131-bb2f-40b6-a7a1-94ce98bb2bd3")
-	)
 	(sheet_instances
 		(path "/"
 			(page "1")
