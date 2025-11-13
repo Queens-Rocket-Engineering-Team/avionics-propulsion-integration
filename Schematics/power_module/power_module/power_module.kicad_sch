@@ -5,9 +5,10 @@
 	(uuid "056a409d-68dc-4414-8eb2-1cb0ecc0d837")
 	(paper "A4")
 	(title_block
-		(title "ULC Board Power Module")
+		(title "ULC Board Power Circuitry")
 		(rev "A")
 		(company "Queen's Rocket Engineering Team")
+		(comment 1 "Jeevan Sanchez")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -2584,7 +2585,7 @@
 		)
 		(uuid "8c3c718b-ce0f-4f9b-b339-1ae7c98f32f3")
 	)
-	(text "Power Module (Protection, Filtering, Switching)\n"
+	(text "Power Circuitry (Protection, Filtering, Switching)\n"
 		(exclude_from_sim no)
 		(at 61.722 18.796 0)
 		(effects
