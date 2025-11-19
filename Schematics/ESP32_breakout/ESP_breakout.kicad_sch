@@ -5018,6 +5018,12 @@
 		)
 		(instances
 			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "R10")
 					(unit 1)
@@ -5084,6 +5090,12 @@
 		)
 		(instances
 			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "#PWR019")
 					(unit 1)
@@ -5148,6 +5160,12 @@
 			(uuid "58bc6210-0a72-4c45-ba5b-b8c179f8157e")
 		)
 		(instances
+			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
 			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "#PWR027")
@@ -5241,6 +5259,12 @@
 		)
 		(instances
 			(project ""
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "U3")
 					(unit 1)
@@ -5306,6 +5330,12 @@
 			(uuid "3328fcf9-19de-4cf7-aa7f-4b654b0efd01")
 		)
 		(instances
+			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
 			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "#PWR024")
@@ -5376,6 +5406,12 @@
 		)
 		(instances
 			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "R5")
 					(unit 1)
@@ -5441,6 +5477,12 @@
 			(uuid "73d0f684-299d-4b60-89ee-de1f09efe4c5")
 		)
 		(instances
+			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
 			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "#PWR026")
@@ -5508,6 +5550,12 @@
 		)
 		(instances
 			(project ""
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "#PWR012")
 					(unit 1)
@@ -5574,6 +5622,12 @@
 			(uuid "3a2059e0-265c-4f2c-857d-a1100d15a80e")
 		)
 		(instances
+			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
 			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "#PWR022")
@@ -5644,6 +5698,12 @@
 		)
 		(instances
 			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "R9")
 					(unit 1)
@@ -5709,6 +5769,12 @@
 			(uuid "1d3a5950-31ed-4694-a6ab-0335c35d6fc9")
 		)
 		(instances
+			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
 			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "#PWR013")
@@ -5776,6 +5842,12 @@
 		)
 		(instances
 			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "#PWR023")
 					(unit 1)
@@ -5841,6 +5913,12 @@
 			(uuid "657ebd2b-9eeb-4433-8a33-cdd29ad5da32")
 		)
 		(instances
+			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "#PWR03")
@@ -5915,6 +5993,12 @@
 		)
 		(instances
 			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "BOOT1")
+					(unit 1)
+				)
+			)
+			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "BOOT1")
 					(unit 1)
@@ -5988,6 +6072,12 @@
 		)
 		(instances
 			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "RESET1")
+					(unit 1)
+				)
+			)
+			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "RESET1")
 					(unit 1)
@@ -6053,6 +6143,12 @@
 			(uuid "f10476d6-2896-4c10-8302-0416468dd41a")
 		)
 		(instances
+			(project ""
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "#PWR06")
@@ -6221,6 +6317,12 @@
 		)
 		(instances
 			(project ""
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "U4")
 					(unit 1)
@@ -6289,6 +6391,12 @@
 			(uuid "7716832d-b989-4df7-80e2-c4cd9db12d71")
 		)
 		(instances
+			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "R4")
@@ -6359,6 +6467,12 @@
 		)
 		(instances
 			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "C7")
 					(unit 1)
@@ -6424,6 +6538,12 @@
 			(uuid "06ef03ff-3976-4c45-bec0-3feb81721ee3")
 		)
 		(instances
+			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
 			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "#PWR021")
@@ -6491,6 +6611,12 @@
 		)
 		(instances
 			(project ""
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "#PWR01")
 					(unit 1)
@@ -6557,6 +6683,12 @@
 		)
 		(instances
 			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "#PWR04")
 					(unit 1)
@@ -6622,6 +6754,12 @@
 			(uuid "3ea11364-ffcd-4ec8-a5ae-bb43e7dfda7a")
 		)
 		(instances
+			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
 			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "#PWR010")
@@ -6698,6 +6836,12 @@
 		)
 		(instances
 			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "D4")
 					(unit 1)
@@ -6764,6 +6908,12 @@
 		)
 		(instances
 			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "#PWR07")
 					(unit 1)
@@ -6828,6 +6978,12 @@
 			(uuid "36ccc261-25f8-416a-898c-8d73b612dea2")
 		)
 		(instances
+			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
 			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "#PWR020")
@@ -6894,6 +7050,12 @@
 			(uuid "85e21847-5a14-4e6a-9529-5038ff115032")
 		)
 		(instances
+			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "#PWR05")
@@ -6964,6 +7126,12 @@
 		)
 		(instances
 			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "R3")
 					(unit 1)
@@ -7029,6 +7197,12 @@
 			(uuid "7fd8d861-37b5-4798-aba2-11912817f25e")
 		)
 		(instances
+			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "#PWR09")
@@ -7100,6 +7274,12 @@
 		)
 		(instances
 			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "C2")
 					(unit 1)
@@ -7168,6 +7348,12 @@
 			(uuid "063c91b3-858d-4ef3-976a-e437002b093c")
 		)
 		(instances
+			(project ""
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "R1")
@@ -7499,6 +7685,12 @@
 		)
 		(instances
 			(project ""
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "U1")
 					(unit 1)
@@ -7567,6 +7759,12 @@
 			(uuid "b29b1cf2-8b7e-444b-a752-616748722169")
 		)
 		(instances
+			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "C3")
@@ -7637,6 +7835,12 @@
 		)
 		(instances
 			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "C4")
 					(unit 1)
@@ -7706,6 +7910,12 @@
 		)
 		(instances
 			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "D2")
 					(unit 1)
@@ -7770,6 +7980,12 @@
 			(uuid "f3d7e7f6-256d-49a6-905a-9c0bff3687dd")
 		)
 		(instances
+			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "#PWR02")
@@ -7840,6 +8056,12 @@
 		)
 		(instances
 			(project ""
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "C1")
 					(unit 1)
@@ -7905,6 +8127,12 @@
 			(uuid "b5dc2a6c-9adb-4607-9d8f-9ea02119b4c0")
 		)
 		(instances
+			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
 			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "#PWR08")
@@ -7975,6 +8203,12 @@
 		)
 		(instances
 			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "R2")
 					(unit 1)
@@ -8041,6 +8275,12 @@
 		)
 		(instances
 			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "#PWR011")
 					(unit 1)
@@ -8106,6 +8346,12 @@
 			(uuid "1668bd9f-7bf1-4704-862f-814646e60402")
 		)
 		(instances
+			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
 			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "#PWR025")
@@ -8220,16 +8466,17 @@
 		)
 		(instances
 			(project "ESP_breakout"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "JUSB1")
+					(unit 1)
+				)
+			)
+			(project "ESP_breakout"
 				(path "/a3d3330c-02e4-4d3c-9ced-1a78662cd21f"
 					(reference "JUSB1")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "1")
 		)
 	)
 )

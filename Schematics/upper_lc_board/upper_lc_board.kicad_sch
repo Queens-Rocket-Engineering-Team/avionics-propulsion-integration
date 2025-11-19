@@ -10,6 +10,44 @@
 		(company "Queen's Rocket Engineering Team")
 	)
 	(lib_symbols)
+	(sheet
+		(at 25.4 25.4)
+		(size 54.61 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1d6cfe1a-a78a-448d-9dfa-b2b78f04d682")
+		(property "Sheetname" "Untitled Sheet"
+			(at 25.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../ESP32_breakout/ESP_breakout.kicad_sch"
+			(at 25.4 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "upper_lc_board"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
