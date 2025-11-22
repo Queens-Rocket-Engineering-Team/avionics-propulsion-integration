@@ -2582,17 +2582,6 @@
 		)
 		(uuid "512929f0-373e-460b-ac2a-669e4a1dbe7a")
 	)
-	(label "CAN_L"
-		(at 54.61 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "59c8d87d-eb5c-45d4-8c22-dfd303838b4a")
-	)
 	(label "3V3_USB"
 		(at 147.32 85.09 180)
 		(fields_autoplaced yes)
@@ -2604,18 +2593,6 @@
 			(justify right bottom)
 		)
 		(uuid "5a29c894-d0ad-483b-b349-a02f3e4ded9a")
-	)
-	(label "5V_USB"
-		(at 160.02 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "945d96c1-73fc-4874-a9ee-ddd68a1bc9be")
 	)
 	(label "3V3_BP"
 		(at 96.52 58.42 180)
@@ -2640,17 +2617,6 @@
 		)
 		(uuid "9dddc021-a2be-4f76-a23b-47f9cfea4bf9")
 	)
-	(label "CAN_H"
-		(at 54.61 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b593ac2b-4cc2-44b9-9319-2afc912a35cd")
-	)
 	(label "3V3_BP"
 		(at 142.24 102.87 180)
 		(fields_autoplaced yes)
@@ -2661,6 +2627,72 @@
 			(justify right bottom)
 		)
 		(uuid "e118072b-340e-478f-a4fd-307bfade682f")
+	)
+	(global_label "CAN_L"
+		(shape input)
+		(at 54.61 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12668e88-8e80-4891-abe5-1833c8002893")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.94 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_USB"
+		(shape input)
+		(at 160.02 113.03 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df9f6f31-27c2-4ccb-ba29-23502bd88222")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.02 102.9691 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_H"
+		(shape input)
+		(at 54.61 66.04 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f106d4c0-78d8-4046-9716-859ce0dbb4a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.61 75.0124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
