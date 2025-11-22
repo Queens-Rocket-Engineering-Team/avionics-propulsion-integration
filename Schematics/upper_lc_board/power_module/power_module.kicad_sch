@@ -2148,7 +2148,7 @@
 	(junction
 		(at 187.96 63.5)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 194 0 0 1)
 		(uuid "9f5200d2-0d88-46ca-9416-b5e8ad2d58a8")
 	)
 	(junction
@@ -2160,7 +2160,7 @@
 	(junction
 		(at 187.96 81.28)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 194 0 0 1)
 		(uuid "a09f36e8-225b-4089-92e2-a616a489a770")
 	)
 	(junction
@@ -2178,7 +2178,7 @@
 	(junction
 		(at 187.96 71.12)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 194 0 0 1)
 		(uuid "e8793e31-54f0-4dea-a99b-d2fe85604b7b")
 	)
 	(junction
@@ -2210,6 +2210,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 0 0 1)
 		)
 		(uuid "0bb686b3-2758-4606-aa7d-ac89a024659f")
 	)
@@ -2220,6 +2221,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 0 0 1)
 		)
 		(uuid "0f0d2708-68e4-4305-a43e-952d50371682")
 	)
@@ -2272,6 +2274,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 0 0 1)
 		)
 		(uuid "33587815-5d55-4313-886b-14be6205689e")
 	)
@@ -2293,6 +2296,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 0 0 1)
 		)
 		(uuid "411ecd6c-687c-4d52-9a12-5c977205a4b9")
 	)
@@ -2323,6 +2327,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 0 0 1)
 		)
 		(uuid "884bbddb-31dc-478e-9a47-6112320b2025")
 	)
@@ -2333,6 +2338,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 0 0 1)
 		)
 		(uuid "88ef09a5-335e-4d1c-a8e3-63a685b249bf")
 	)
@@ -2343,6 +2349,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 0 0 1)
 		)
 		(uuid "89d06f27-c2d7-4b08-8c36-8dbe057a1292")
 	)
@@ -2353,6 +2360,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 0 0 1)
 		)
 		(uuid "8c7df4d2-ffa8-4f5d-a9c1-0c9679600a72")
 	)
@@ -2363,6 +2371,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 0 0 1)
 		)
 		(uuid "98fe5707-b651-4ca7-83c5-44c176464e81")
 	)
@@ -2404,6 +2413,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 0 0 1)
 		)
 		(uuid "c0132ab4-46cf-47ee-9aed-d977470a0c53")
 	)
@@ -2424,6 +2434,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 0 0 1)
 		)
 		(uuid "c372ff60-792d-4a39-a7a6-98d97336ba7b")
 	)
@@ -2434,6 +2445,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 0 0 1)
 		)
 		(uuid "c4feb828-5bf1-486c-b3b0-2d9ba6a4a59d")
 	)
@@ -2455,6 +2467,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 0 0 1)
 		)
 		(uuid "e2c0efb6-6aa6-4cd9-83b8-b5f94407ca28")
 	)
@@ -3458,72 +3471,6 @@
 			(project "power_module"
 				(path "/056a409d-68dc-4414-8eb2-1cb0ecc0d837"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 143.51 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "339cd90f-506e-4b9e-93a0-bd2931bf5df7")
-		(property "Reference" "#PWR033"
-			(at 143.51 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 143.51 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 143.51 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37bf31e4-ec3a-4f0b-836e-7922697cbc4b")
-		)
-		(instances
-			(project "power_module"
-				(path "/056a409d-68dc-4414-8eb2-1cb0ecc0d837"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4738,7 +4685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "+24V_BP"
 			(at 93.98 91.4399 90)
 			(effects
 				(font
@@ -4982,6 +4929,72 @@
 			(project "power_module"
 				(path "/056a409d-68dc-4414-8eb2-1cb0ecc0d837"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 143.51 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8824b1ad-9dec-4d12-8a4d-7291fc3d7e55")
+		(property "Reference" "#PWR014"
+			(at 143.51 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V_BP"
+			(at 143.51 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 143.51 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6dcb19d4-f8d2-42c7-863f-a366ea350cbb")
+		)
+		(instances
+			(project "power_module"
+				(path "/056a409d-68dc-4414-8eb2-1cb0ecc0d837"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)

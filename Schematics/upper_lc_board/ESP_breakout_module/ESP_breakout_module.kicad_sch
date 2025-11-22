@@ -4547,6 +4547,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 102.87) (xy 100.33 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dd96504-ddf1-42ce-829d-256b94bc82fc")
+	)
+	(wire
+		(pts
 			(xy 93.98 92.71) (xy 100.33 92.71)
 		)
 		(stroke
@@ -4993,6 +5003,17 @@
 			(justify left bottom)
 		)
 		(uuid "b262694b-9938-4f23-ad6d-a724c79df8da")
+	)
+	(label "GPIO_11"
+		(at 93.98 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c85f8e2e-9974-4041-b6f7-e3b72609c9e7")
 	)
 	(label "CAN_L"
 		(at 187.96 132.08 0)
