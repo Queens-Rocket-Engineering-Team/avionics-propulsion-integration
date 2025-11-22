@@ -1,0 +1,127 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "bf228dd4-f70d-4b09-996e-79978f96e91d")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 180.34 97.79)
+		(size 29.21 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3f5cafc9-0df5-4659-9e17-534880fbbe00")
+		(property "Sheetname" "power_circuits"
+			(at 180.34 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_circuits.kicad_sch"
+			(at 180.34 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Hybrid_Power_Module"
+				(path "/bf228dd4-f70d-4b09-996e-79978f96e91d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 97.79)
+		(size 27.94 43.18)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4ef9dddd-01f9-452e-9fc0-c15744bb36d9")
+		(property "Sheetname" "stm32"
+			(at 87.63 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32f103cbt6.kicad_sch"
+			(at 87.63 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Hybrid_Power_Module"
+				(path "/bf228dd4-f70d-4b09-996e-79978f96e91d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 97.79)
+		(size 27.94 43.18)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5eec7ce3-de95-4f93-80ad-047483fc8b3d")
+		(property "Sheetname" "max1873r_charger"
+			(at 129.54 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "max1873r_charger.kicad_sch"
+			(at 129.54 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Hybrid_Power_Module"
+				(path "/bf228dd4-f70d-4b09-996e-79978f96e91d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
