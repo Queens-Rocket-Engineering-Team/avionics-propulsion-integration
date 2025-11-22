@@ -1,8 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Edge Connector")(type "KiCad")(uri "${KIPRJMOD}/symbols/EdgeConnector.kicad_sym")(options "")(descr ""))
-  (lib (name "USBC")(type "KiCad")(uri "${KIPRJMOD}/symbols/USB_C.kicad_sym")(options "")(descr ""))
-  (lib (name "SCM3721ASA")(type "KiCad")(uri "${KIPRJMOD}/symbols/SCM3721ASA.kicad_sym")(options "")(descr ""))
-  (lib (name "QRET_Buck_PSU")(type "KiCad")(uri "${KIPRJMOD}/symbols/QRET_Buck_PSU-symbols.kicad_sym")(options "")(descr ""))
-  (lib (name "MAX1873REEE")(type "KiCad")(uri "${KIPRJMOD}/symbols/MAX1873REEE.kicad_sym")(options "")(descr ""))
-)
