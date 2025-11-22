@@ -5,7 +5,7 @@
 	(uuid "a3d3330c-02e4-4d3c-9ced-1a78662cd21f")
 	(paper "A4")
 	(title_block
-		(title "ESP32-S3 Breakout Circuitry")
+		(title "ULC Board ESP32-S3 Breakout Circuitry ")
 		(rev "A")
 		(company "Queen's Rocket Engineering Team")
 		(comment 1 "Jeevan Sanchez")
