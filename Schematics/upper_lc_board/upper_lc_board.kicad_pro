@@ -389,7 +389,19 @@
     ],
     [
       "1d6cfe1a-a78a-448d-9dfa-b2b78f04d682",
-      "Untitled Sheet"
+      "ESP Breakout Cirucitry"
+    ],
+    [
+      "4448a9b0-3cba-4e30-89c0-980036e20f76",
+      "Power Circuitry"
+    ],
+    [
+      "03f1622b-3dda-4e29-911f-7cc762ec6c20",
+      "Sensor Circuitry"
+    ],
+    [
+      "f003a3ad-0ca0-4253-bb6a-1aee93b0e37f",
+      "Solenoid Driver Circuitry"
     ]
   ],
   "text_variables": {}

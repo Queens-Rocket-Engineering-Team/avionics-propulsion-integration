@@ -11,7 +11,45 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 25.4 25.4)
+		(at 72.39 102.87)
+		(size 54.61 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "03f1622b-3dda-4e29-911f-7cc762ec6c20")
+		(property "Sheetname" "Sensor Circuitry"
+			(at 72.39 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor_module/sensor_module.kicad_sch"
+			(at 72.39 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "upper_lc_board"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 44.45)
 		(size 54.61 33.02)
 		(fields_autoplaced yes)
 		(stroke
@@ -22,8 +60,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "1d6cfe1a-a78a-448d-9dfa-b2b78f04d682")
-		(property "Sheetname" "Untitled Sheet"
-			(at 25.4 24.6884 0)
+		(property "Sheetname" "ESP Breakout Cirucitry"
+			(at 71.12 43.7384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,8 +69,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../ESP32_breakout/ESP_breakout.kicad_sch"
-			(at 25.4 59.0046 0)
+		(property "Sheetfile" "ESP_breakout_module/ESP_breakout_module.kicad_sch"
+			(at 71.12 78.0546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,6 +82,82 @@
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 153.67 44.45)
+		(size 54.61 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4448a9b0-3cba-4e30-89c0-980036e20f76")
+		(property "Sheetname" "Power Circuitry"
+			(at 153.67 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_module/power_module.kicad_sch"
+			(at 153.67 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "upper_lc_board"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 102.87)
+		(size 54.61 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f003a3ad-0ca0-4253-bb6a-1aee93b0e37f")
+		(property "Sheetname" "Solenoid Driver Circuitry"
+			(at 154.94 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solenoid_module/solenoid_module.kicad_sch"
+			(at 154.94 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "upper_lc_board"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75"
+					(page "5")
 				)
 			)
 		)

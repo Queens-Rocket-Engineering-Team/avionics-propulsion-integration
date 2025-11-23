@@ -2069,17 +2069,6 @@
 		)
 		(uuid "2870c7e4-523b-4e79-8a50-0d16bd0589af")
 	)
-	(label "GPIO_10"
-		(at 205.74 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "523ededd-cd6a-4fd7-b1ab-a4817c6b00f7")
-	)
 	(label "HALL_OUT"
 		(at 132.08 57.15 180)
 		(fields_autoplaced yes)
@@ -2291,6 +2280,12 @@
 					(unit 1)
 				)
 			)
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2358,6 +2353,12 @@
 					(unit 1)
 				)
 			)
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2421,6 +2422,12 @@
 		(instances
 			(project "sensor_module"
 				(path "/000b68e4-ef06-4c20-b636-7369874d2a55"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "#PWR020")
 					(unit 1)
 				)
@@ -2493,6 +2500,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2556,6 +2569,12 @@
 		(instances
 			(project "sensor_module"
 				(path "/000b68e4-ef06-4c20-b636-7369874d2a55"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "#PWR023")
 					(unit 1)
 				)
@@ -2630,6 +2649,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2696,69 +2721,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 38.1 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ee802e4-651d-4114-82c0-82c36c8b484c")
-		(property "Reference" "#PWR01"
-			(at 38.1 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 38.1 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bfabfcb1-c40d-4ae7-95bc-3a0b49acdf84")
-		)
-		(instances
 			(project ""
-				(path "/000b68e4-ef06-4c20-b636-7369874d2a55"
-					(reference "#PWR01")
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -2825,6 +2790,12 @@
 		(instances
 			(project "sensor_module"
 				(path "/000b68e4-ef06-4c20-b636-7369874d2a55"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "#PWR024")
 					(unit 1)
 				)
@@ -2901,6 +2872,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2963,6 +2940,12 @@
 		(instances
 			(project "sensor_module"
 				(path "/000b68e4-ef06-4c20-b636-7369874d2a55"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "#PWR07")
 					(unit 1)
 				)
@@ -3030,6 +3013,12 @@
 		(instances
 			(project "sensor_module"
 				(path "/000b68e4-ef06-4c20-b636-7369874d2a55"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "#PWR016")
 					(unit 1)
 				)
@@ -3103,6 +3092,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3166,6 +3161,12 @@
 		(instances
 			(project "sensor_module"
 				(path "/000b68e4-ef06-4c20-b636-7369874d2a55"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "R2")
 					(unit 1)
 				)
@@ -3237,6 +3238,12 @@
 					(unit 1)
 				)
 			)
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3304,6 +3311,12 @@
 					(unit 1)
 				)
 			)
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "C6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3367,6 +3380,12 @@
 		(instances
 			(project ""
 				(path "/000b68e4-ef06-4c20-b636-7369874d2a55"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "#PWR02")
 					(unit 1)
 				)
@@ -3441,6 +3460,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3504,6 +3529,12 @@
 		(instances
 			(project "sensor_module"
 				(path "/000b68e4-ef06-4c20-b636-7369874d2a55"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "C5")
 					(unit 1)
 				)
@@ -3574,6 +3605,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3636,6 +3673,12 @@
 		(instances
 			(project "sensor_module"
 				(path "/000b68e4-ef06-4c20-b636-7369874d2a55"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "#PWR012")
 					(unit 1)
 				)
@@ -3707,69 +3750,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 48.26 41.91 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a735921-1761-4012-ad16-8b8234d66138")
-		(property "Reference" "#PWR03"
-			(at 48.26 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 48.26 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 48.26 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5813eadc-f29f-439d-bf4f-5868b8ba5fed")
-		)
-		(instances
-			(project ""
-				(path "/000b68e4-ef06-4c20-b636-7369874d2a55"
-					(reference "#PWR03")
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3842,6 +3825,12 @@
 					(unit 1)
 				)
 			)
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "J3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3905,6 +3894,12 @@
 		(instances
 			(project "sensor_module"
 				(path "/000b68e4-ef06-4c20-b636-7369874d2a55"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "#PWR05")
 					(unit 1)
 				)
@@ -3976,6 +3971,12 @@
 					(unit 1)
 				)
 			)
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4039,6 +4040,12 @@
 		(instances
 			(project "sensor_module"
 				(path "/000b68e4-ef06-4c20-b636-7369874d2a55"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "#PWR015")
 					(unit 1)
 				)
@@ -4108,6 +4115,12 @@
 					(unit 1)
 				)
 			)
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4171,6 +4184,12 @@
 		(instances
 			(project "sensor_module"
 				(path "/000b68e4-ef06-4c20-b636-7369874d2a55"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "#PWR018")
 					(unit 1)
 				)
@@ -4335,6 +4354,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4398,6 +4423,12 @@
 		(instances
 			(project "sensor_module"
 				(path "/000b68e4-ef06-4c20-b636-7369874d2a55"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "#PWR019")
 					(unit 1)
 				)
@@ -4468,6 +4499,12 @@
 					(unit 1)
 				)
 			)
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4531,6 +4568,12 @@
 		(instances
 			(project "sensor_module"
 				(path "/000b68e4-ef06-4c20-b636-7369874d2a55"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "#PWR027")
 					(unit 1)
 				)
@@ -4603,6 +4646,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4670,6 +4719,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4733,6 +4788,12 @@
 		(instances
 			(project "sensor_module"
 				(path "/000b68e4-ef06-4c20-b636-7369874d2a55"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "#PWR022")
 					(unit 1)
 				)
@@ -4807,6 +4868,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4870,6 +4937,12 @@
 		(instances
 			(project "sensor_module"
 				(path "/000b68e4-ef06-4c20-b636-7369874d2a55"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "#PWR08")
 					(unit 1)
 				)
@@ -4941,6 +5014,12 @@
 					(unit 1)
 				)
 			)
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5004,6 +5083,12 @@
 		(instances
 			(project "sensor_module"
 				(path "/000b68e4-ef06-4c20-b636-7369874d2a55"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "#PWR014")
 					(unit 1)
 				)
@@ -5074,6 +5159,12 @@
 					(unit 1)
 				)
 			)
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5136,6 +5227,12 @@
 		(instances
 			(project "sensor_module"
 				(path "/000b68e4-ef06-4c20-b636-7369874d2a55"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "#PWR010")
 					(unit 1)
 				)
@@ -5209,6 +5306,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5276,11 +5379,12 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "1")
+			(project "sensor_module"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
 		)
 	)
 )
