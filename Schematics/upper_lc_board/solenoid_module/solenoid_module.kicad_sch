@@ -2918,7 +2918,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 38.1 88.9 0)
 			(effects
 				(font
@@ -3406,7 +3406,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 99.06 49.022 90)
 			(effects
 				(font
@@ -3773,7 +3773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "US1M:DIOM4325X250N"
 			(at 125.73 83.82 0)
 			(effects
 				(font
@@ -3782,7 +3782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/SK42BL-SK44BL(DO-214AA).pdf"
+		(property "Datasheet" "https://services.taiwansemi.com/storage/resources/datasheet/US1A%20SERIES_N2102.pdf"
 			(at 125.73 83.82 0)
 			(effects
 				(font
@@ -3791,7 +3791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode for flyback"
+		(property "Description" "Schottky diode for flyback, UPDATED to USM (safer/larger VRRM)"
 			(at 125.73 83.82 0)
 			(effects
 				(font
@@ -3846,7 +3846,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 23.622 96.52 90)
 			(effects
 				(font
@@ -4206,7 +4206,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 118.618 99.06 90)
 			(effects
 				(font
@@ -4571,7 +4571,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 105.41 93.472 90)
 			(effects
 				(font
@@ -4644,7 +4644,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 36.322 96.52 90)
 			(effects
 				(font
@@ -4889,7 +4889,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 25.4 88.9 0)
 			(effects
 				(font
@@ -5263,7 +5263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "US1M:DIOM4325X250N"
 			(at 134.62 44.45 0)
 			(effects
 				(font
