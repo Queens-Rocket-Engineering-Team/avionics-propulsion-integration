@@ -3066,7 +3066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IRLZ44N:TO254P1054X469X1930-3"
+		(property "Footprint" "IRFZ44NSPBF:TO254P1524X483-4N"
 			(at 123.19 92.71 0)
 			(effects
 				(font
@@ -3406,7 +3406,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 99.06 49.022 90)
 			(effects
 				(font
@@ -4206,7 +4206,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 118.618 99.06 90)
 			(effects
 				(font
@@ -4571,7 +4571,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 105.41 93.472 90)
 			(effects
 				(font
