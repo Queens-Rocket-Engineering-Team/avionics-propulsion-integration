@@ -4744,7 +4744,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 132.08) (xy 187.96 132.08)
+			(xy 184.15 132.08) (xy 195.58 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5244,9 +5244,9 @@
 			)
 		)
 	)
-	(global_label "GPIO_9"
+	(global_label "CAN_L"
 		(shape input)
-		(at 34.29 170.18 0)
+		(at 195.58 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5254,9 +5254,9 @@
 			)
 			(justify left)
 		)
-		(uuid "a1baaa90-396d-4b67-8162-a18db79a4bcd")
+		(uuid "84122068-9839-435c-a308-88db23d34f26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.9276 170.18 0)
+			(at 204.25 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5276,7 +5276,7 @@
 			)
 			(justify left)
 		)
-		(uuid "a7ed340e-76b9-4f79-aea5-610362725cf9")
+		(uuid "8c061921-b6df-4329-aabc-b640212f3daa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 196.9324 137.16 0)
 			(effects
@@ -5288,9 +5288,9 @@
 			)
 		)
 	)
-	(global_label "CAN_L"
+	(global_label "GPIO_9"
 		(shape input)
-		(at 187.96 132.08 0)
+		(at 34.29 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5298,9 +5298,9 @@
 			)
 			(justify left)
 		)
-		(uuid "b5faeee8-ca58-4d12-b184-20897b58f354")
+		(uuid "a1baaa90-396d-4b67-8162-a18db79a4bcd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.63 132.08 0)
+			(at 43.9276 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6250,7 +6250,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
 			(at 68.58 81.28 0)
 			(effects
 				(font
@@ -6323,7 +6323,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
 			(at 68.58 69.85 0)
 			(effects
 				(font

@@ -2906,7 +2906,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_EH_S3B-EH_1x03_P2.50mm_Horizontal"
 			(at 39.37 59.69 0)
 			(effects
 				(font
@@ -3129,7 +3129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 187.6552 113.03 0)
 			(effects
 				(font
@@ -3348,7 +3348,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 190.5 61.2648 0)
 			(effects
 				(font
@@ -3497,7 +3497,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_ECS_CSM3X-2Pin_7.6x4.1mm"
 			(at 190.5 58.42 0)
 			(effects
 				(font
@@ -3570,7 +3570,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 190.5 53.6448 0)
 			(effects
 				(font
@@ -3862,7 +3862,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
 			(at 88.9 52.07 0)
 			(effects
 				(font
@@ -4299,7 +4299,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PBS0032A_N"
+		(property "Footprint" "ADS131M08IPBS:PBS0032A_N"
 			(at 157.48 80.01 0)
 			(effects
 				(font
@@ -4683,7 +4683,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 190.5 46.0248 0)
 			(effects
 				(font
@@ -4756,7 +4756,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 125.73 109.5248 0)
 			(effects
 				(font
@@ -4905,7 +4905,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
 			(at 88.9 41.91 0)
 			(effects
 				(font
@@ -5410,7 +5410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 37.7952 78.74 0)
 			(effects
 				(font
