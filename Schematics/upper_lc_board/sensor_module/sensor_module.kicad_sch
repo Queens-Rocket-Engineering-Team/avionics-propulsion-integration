@@ -1353,6 +1353,175 @@
 				)
 			)
 		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -1818,13 +1987,13 @@
 		(uuid "08337c39-c5eb-42d6-9375-3f9d58afa1d9")
 	)
 	(junction
-		(at 55.88 76.2)
+		(at 52.07 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fc215fc-6e64-4b11-a793-a4a57c53fa73")
 	)
 	(junction
-		(at 36.83 69.85)
+		(at 33.02 50.8)
 		(diameter 0)
 		(color 194 0 0 1)
 		(uuid "4e5eace8-16a1-465d-bb93-3604326f71ce")
@@ -1849,7 +2018,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 71.12) (xy 36.83 69.85)
+			(xy 33.02 52.07) (xy 33.02 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1860,7 +2029,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 66.04) (xy 39.37 66.04)
+			(xy 33.02 46.99) (xy 35.56 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1891,7 +2060,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 66.04) (xy 36.83 69.85)
+			(xy 33.02 46.99) (xy 33.02 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1912,7 +2081,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 73.66) (xy 55.88 76.2)
+			(xy 52.07 54.61) (xy 52.07 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1922,7 +2091,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 64.77) (xy 41.91 64.77)
+			(xy 52.07 45.72) (xy 38.1 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1942,7 +2111,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 66.04) (xy 39.37 64.77)
+			(xy 35.56 46.99) (xy 35.56 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1953,7 +2122,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 76.2) (xy 55.88 78.74)
+			(xy 52.07 57.15) (xy 52.07 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1985,7 +2154,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 76.2) (xy 59.69 76.2)
+			(xy 52.07 57.15) (xy 55.88 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2027,7 +2196,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 64.77) (xy 55.88 66.04)
+			(xy 52.07 45.72) (xy 52.07 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2069,7 +2238,7 @@
 		(uuid "27f5740d-f522-40e1-8a05-f1cb0f8eda0c")
 	)
 	(label "HALL_OUT"
-		(at 59.69 76.2 0)
+		(at 55.88 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2291,7 +2460,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 55.88 82.55 0)
+		(at 52.07 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2300,7 +2469,7 @@
 		(fields_autoplaced yes)
 		(uuid "099870e8-8692-4380-989b-141eba27cb1a")
 		(property "Reference" "R?"
-			(at 58.42 81.2799 0)
+			(at 54.61 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2309,7 +2478,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 58.42 83.8199 0)
+			(at 54.61 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2318,7 +2487,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 54.102 82.55 90)
+			(at 50.292 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,7 +2496,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 82.55 0)
+			(at 52.07 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,7 +2505,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 55.88 82.55 0)
+			(at 52.07 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2367,7 +2536,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 36.83 69.85 270)
+		(at 33.02 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2376,7 +2545,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a379e53-5874-4519-a0da-f9e9b51d1746")
 		(property "Reference" "#PWR?"
-			(at 33.02 69.85 0)
+			(at 29.21 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2385,7 +2554,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 40.64 69.8501 90)
+			(at 36.83 50.8001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2394,7 +2563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 69.85 0)
+			(at 33.02 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2403,7 +2572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 69.85 0)
+			(at 33.02 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2412,7 +2581,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 36.83 69.85 0)
+			(at 33.02 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,6 +2755,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 44.45 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1269052d-34cb-4111-950d-d09139bc95d4")
+		(property "Reference" "D14"
+			(at 42.8625 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 42.8625 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 44.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1cfadbb-a2b0-43fa-a027-f2941c5ce433")
+		)
+		(pin "2"
+			(uuid "a5065339-60e1-4786-9829-4cd95f99eeb3")
+		)
+		(instances
+			(project "upper_lc_board"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 132.08 115.57 270)
 		(unit 1)
@@ -2660,7 +2897,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 55.88 69.85 0)
+		(at 52.07 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2669,7 +2906,7 @@
 		(fields_autoplaced yes)
 		(uuid "25be9d24-f7f3-4356-a303-f65fd5622415")
 		(property "Reference" "R?"
-			(at 58.42 68.5799 0)
+			(at 54.61 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2678,7 +2915,7 @@
 			)
 		)
 		(property "Value" "3.2k"
-			(at 58.42 71.1199 0)
+			(at 54.61 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2687,7 +2924,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 54.102 69.85 90)
+			(at 50.292 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2696,7 +2933,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 69.85 0)
+			(at 52.07 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2705,7 +2942,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 55.88 69.85 0)
+			(at 52.07 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2808,6 +3045,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 40.64 124.46 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3204bbb1-32f8-464b-a3b2-4e2cf98f5e63")
+		(property "Reference" "#PWR096"
+			(at 34.29 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 124.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
+			(at 40.64 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hall effect sensor."
+			(at 40.64 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "490bc6be-536c-483e-9b3c-47aecfb78e9e")
+		)
+		(instances
+			(project "upper_lc_board"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 182.88 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2881,7 +3185,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 39.37 59.69 90)
+		(at 35.56 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2889,7 +3193,7 @@
 		(dnp no)
 		(uuid "366c587f-4f43-4e98-8f3a-4424e5c53f7c")
 		(property "Reference" "J?"
-			(at 44.196 53.34 90)
+			(at 40.386 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2898,7 +3202,7 @@
 			)
 		)
 		(property "Value" "HAL_SENS"
-			(at 44.196 55.88 90)
+			(at 40.386 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2907,7 +3211,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_EH_S3B-EH_1x03_P2.50mm_Horizontal"
-			(at 39.37 59.69 0)
+			(at 35.56 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2916,7 +3220,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 59.69 0)
+			(at 35.56 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2925,7 +3229,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 39.37 59.69 0)
+			(at 35.56 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3252,16 +3556,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 78.74 270)
+		(at 40.64 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "520ecee8-be93-46be-ae12-ee6f2860f87f")
-		(property "Reference" "#PWR?"
-			(at 30.48 78.74 0)
+		(uuid "4f73e2be-8ec6-4fb4-b2e0-a63609cddb80")
+		(property "Reference" "#PWR097"
+			(at 34.29 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3270,7 +3574,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 78.7399 90)
+			(at 36.83 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3279,7 +3583,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 78.74 0)
+			(at 40.64 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3288,7 +3592,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 36.83 78.74 0)
+			(at 40.64 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3297,7 +3601,74 @@
 			)
 		)
 		(property "Description" "Hall effect sensor."
-			(at 36.83 78.74 0)
+			(at 40.64 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b0007e8-8db7-43f8-b87f-3c438b6507e4")
+		)
+		(instances
+			(project "upper_lc_board"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "520ecee8-be93-46be-ae12-ee6f2860f87f")
+		(property "Reference" "#PWR?"
+			(at 26.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
+			(at 33.02 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hall effect sensor."
+			(at 33.02 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3318,6 +3689,74 @@
 			(project "sensor_module"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 44.45 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "556a5ffa-89ea-4a89-bf20-3e6d08cca97d")
+		(property "Reference" "D13"
+			(at 42.8625 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 42.8625 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 44.45 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44a49966-880b-4253-aac0-a51cc2ce1ab2")
+		)
+		(pin "2"
+			(uuid "d545bd02-ef05-4f80-8e4b-b7b4755fe863")
+		)
+		(instances
+			(project "upper_lc_board"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -3620,7 +4059,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 86.36 0)
+		(at 52.07 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3629,7 +4068,7 @@
 		(fields_autoplaced yes)
 		(uuid "68ea3771-ade8-4d7e-a975-63d3e6c52ac6")
 		(property "Reference" "#PWR?"
-			(at 55.88 92.71 0)
+			(at 52.07 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3638,7 +4077,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 91.44 0)
+			(at 52.07 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3646,7 +4085,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 86.36 0)
+			(at 52.07 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3655,7 +4094,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 86.36 0)
+			(at 52.07 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3664,7 +4103,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 86.36 0)
+			(at 52.07 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3853,7 +4292,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PT_2"
+		(property "Value" "TC"
 			(at 89.662 59.944 90)
 			(effects
 				(font
@@ -3912,7 +4351,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 64.77 270)
+		(at 33.02 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3921,7 +4360,7 @@
 		(fields_autoplaced yes)
 		(uuid "83e4652f-0d09-4078-bf63-adaf3159b710")
 		(property "Reference" "#PWR?"
-			(at 30.48 64.77 0)
+			(at 26.67 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,7 +4369,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 64.7699 90)
+			(at 29.21 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3939,7 +4378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 64.77 0)
+			(at 33.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3948,7 +4387,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 36.83 64.77 0)
+			(at 33.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3957,7 +4396,7 @@
 			)
 		)
 		(property "Description" "Hall effect sensor."
-			(at 36.83 64.77 0)
+			(at 33.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4579,6 +5018,74 @@
 			(project "sensor_module"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 44.45 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a80d558e-6096-4f0b-9823-e044b396841f")
+		(property "Reference" "D12"
+			(at 42.8625 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 42.8625 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 44.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a82362f-5a7c-4310-a2d0-66577ce23347")
+		)
+		(pin "2"
+			(uuid "6ab1c836-3c8a-41fb-a541-1506724adf60")
+		)
+		(instances
+			(project ""
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -5384,8 +5891,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 40.64 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8dff58b-36ec-4d3d-a0ed-4f20c1c26659")
+		(property "Reference" "#PWR095"
+			(at 34.29 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
+			(at 40.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hall effect sensor."
+			(at 40.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62220ba1-0fb3-439e-84c3-d5434045e397")
+		)
+		(instances
+			(project "upper_lc_board"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 36.83 74.93 0)
+		(at 33.02 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5393,7 +5967,7 @@
 		(dnp no)
 		(uuid "efeea46e-fc8e-4eab-8848-e1f495f3ddb7")
 		(property "Reference" "C?"
-			(at 37.846 77.47 0)
+			(at 34.036 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5402,7 +5976,7 @@
 			)
 		)
 		(property "Value" "0.1uF_12V"
-			(at 37.846 80.01 0)
+			(at 34.036 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5411,7 +5985,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 37.7952 78.74 0)
+			(at 33.9852 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5420,7 +5994,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 74.93 0)
+			(at 33.02 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5429,7 +6003,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 36.83 74.93 0)
+			(at 33.02 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
