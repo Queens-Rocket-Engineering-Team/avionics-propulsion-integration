@@ -2340,7 +2340,7 @@
 		(uuid "1b734056-c281-43c9-bedf-20867f7616f4")
 		(at 65.84 60.44 180)
 		(property "Reference" "Q1"
-			(at 0.032 -2.4064 360)
+			(at 0.032 -2.4064 0)
 			(layer "F.SilkS")
 			(uuid "5cced94d-6eb2-4eea-96a2-25cf3932e8ff")
 			(effects
@@ -2351,7 +2351,7 @@
 			)
 		)
 		(property "Value" "MOSFET_BSS138"
-			(at 4.5024 2.4064 360)
+			(at 4.5024 2.4064 0)
 			(layer "F.Fab")
 			(uuid "8b4f6c9e-0576-4234-a365-a7157905ffd7")
 			(effects
@@ -2362,7 +2362,7 @@
 			)
 		)
 		(property "Footprint" "BSS138:SOT95P240X111-3N"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "29a3bba4-47bc-455a-919a-830ea2beb305")
@@ -2374,7 +2374,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/bss138-d.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "30de3450-d32a-4e3a-b009-dd0fa9ae903d")
@@ -2386,7 +2386,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "afdbb86b-9783-46fb-bd73-2d61cfb640c3")
@@ -10805,7 +10805,7 @@
 		)
 		(fp_arc
 			(start 1.959482 -2.499993)
-			(mid 1.996846 -2.492386)
+			(mid 1.996851 -2.492392)
 			(end 2.028648 -2.471344)
 			(stroke
 				(width 0.1)
@@ -10816,7 +10816,7 @@
 		)
 		(fp_arc
 			(start 2.028648 2.471349)
-			(mid 1.996846 2.492395)
+			(mid 1.996846 2.492383)
 			(end 1.959482 2.499999)
 			(stroke
 				(width 0.1)
@@ -10827,7 +10827,7 @@
 		)
 		(fp_arc
 			(start 2.471347 -2.028645)
-			(mid 2.492392 -1.996844)
+			(mid 2.49238 -1.996843)
 			(end 2.499996 -1.95948)
 			(stroke
 				(width 0.1)
@@ -10838,7 +10838,7 @@
 		)
 		(fp_arc
 			(start 2.499996 1.959485)
-			(mid 2.492388 1.996848)
+			(mid 2.492394 1.996853)
 			(end 2.471347 2.02865)
 			(stroke
 				(width 0.1)
@@ -23737,7 +23737,7 @@
 		(descr "Resistor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R20"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "97eafd86-a26a-4d83-ad26-805c926df14b")
 			(effects
@@ -23903,7 +23903,7 @@
 			(uuid "1610d316-916e-4395-9c14-b4842b364dc9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "e093f567-2b39-4ad8-9fcc-8bfad36c02b5")
 			(effects
@@ -23948,7 +23948,7 @@
 		(uuid "f9e2691a-0c3b-4c4b-bb8f-ce4d3a072e4e")
 		(at 63.085 53.46 180)
 		(property "Reference" "U8"
-			(at -1.145085 -3.562475 360)
+			(at -1.145085 -3.562475 0)
 			(layer "F.SilkS")
 			(uuid "e8b209c5-7e75-4b0d-bbcb-8658b35ef71c")
 			(effects
@@ -23959,7 +23959,7 @@
 			)
 		)
 		(property "Value" "SSR_VO1400AEFTR"
-			(at 6.98572 3.556365 360)
+			(at 6.98572 3.556365 0)
 			(layer "F.Fab")
 			(uuid "2e673751-8fe7-4b21-b8d8-bd8686dd0f81")
 			(effects
@@ -23970,7 +23970,7 @@
 			)
 		)
 		(property "Footprint" "VO1400AEFTR:SOIC254P695X242-4N"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5cedbacf-6640-4421-bd5b-efd78ab6e839")
@@ -23982,7 +23982,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/84724/vo1400aeftr.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fca81a2c-e8a1-45cb-a47a-db532367c7b9")
@@ -23994,7 +23994,7 @@
 			)
 		)
 		(property "Description" "Solid state relay"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "90aa6a96-8800-4f4c-ae59-4779c51d06b5")
