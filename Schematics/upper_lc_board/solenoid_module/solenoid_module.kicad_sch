@@ -2771,7 +2771,7 @@
 			)
 		)
 	)
-	(global_label "SOL_RET"
+	(global_label "SOL1_RET"
 		(shape input)
 		(at 25.4 85.09 90)
 		(fields_autoplaced yes)
@@ -2783,7 +2783,7 @@
 		)
 		(uuid "b475682b-9bb0-464d-a37c-f2c2269a455c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.4 74.1825 90)
+			(at 25.4 72.973 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,7 +2859,7 @@
 			)
 		)
 	)
-	(global_label "SOL_RET"
+	(global_label "SOL2_RET"
 		(shape input)
 		(at 38.1 85.09 90)
 		(fields_autoplaced yes)
@@ -2871,7 +2871,7 @@
 		)
 		(uuid "f209c615-d0ee-4fe2-842b-e48aad1f0b7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1 74.1825 90)
+			(at 38.1 72.973 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4842,7 +4842,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "530480210:MOLEX_530480210"
 			(at 62.23 48.26 0)
 			(effects
 				(font
@@ -5058,7 +5058,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "530480210:MOLEX_530480210"
 			(at 63.5 85.09 0)
 			(effects
 				(font
