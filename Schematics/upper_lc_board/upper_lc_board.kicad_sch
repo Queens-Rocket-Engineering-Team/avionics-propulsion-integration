@@ -11,7 +11,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 72.39 102.87)
+		(at 72.136 102.616)
 		(size 54.61 33.02)
 		(fields_autoplaced yes)
 		(stroke
@@ -23,7 +23,7 @@
 		)
 		(uuid "03f1622b-3dda-4e29-911f-7cc762ec6c20")
 		(property "Sheetname" "Sensor Circuitry"
-			(at 72.39 102.1584 0)
+			(at 72.136 101.9044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Sheetfile" "sensor_module/sensor_module.kicad_sch"
-			(at 72.39 136.4746 0)
+			(at 72.136 136.2206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
