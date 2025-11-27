@@ -795,6 +795,181 @@
 				)
 			)
 		)
+		(symbol "Amplifier_Operational:TLV9001IDCK"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 7.62 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TLV9001IDCK"
+				(at 11.43 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9001.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low-power, Rail-to-Rail, 1MHz Operational Amplifier, SOT-353"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "op amp operational amplifier"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT*353*SC*70*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLV9001IDCK_0_1"
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -2.54 -5.08) (xy 7.62 0) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TLV9001IDCK_1_1"
+				(pin input line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -1584,12 +1759,6 @@
 		(uuid "2c1db6eb-08cd-4ebe-a19c-860a38a7537b")
 	)
 	(junction
-		(at 55.88 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2fc215fc-6e64-4b11-a793-a4a57c53fa73")
-	)
-	(junction
 		(at 157.48 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1865,26 +2034,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 99.06) (xy 55.88 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6795eaa1-f172-4a59-bb67-0a4e33fcf41d")
-	)
-	(wire
-		(pts
-			(xy 55.88 90.17) (xy 41.91 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "693e3c5c-3c06-407b-928b-28622346f353")
-	)
-	(wire
-		(pts
 			(xy 104.14 104.14) (xy 106.68 104.14)
 		)
 		(stroke
@@ -1955,16 +2104,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 101.6) (xy 55.88 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "991c354f-9df7-4f41-a00f-be637914a528")
-	)
-	(wire
-		(pts
 			(xy 106.68 104.14) (xy 116.84 104.14)
 		)
 		(stroke
@@ -2003,16 +2142,6 @@
 			(type default)
 		)
 		(uuid "a42f9237-63ec-40ae-bdaa-144bbf5576a8")
-	)
-	(wire
-		(pts
-			(xy 55.88 101.6) (xy 59.69 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad6d8ac1-00e6-48f0-86df-b09378c41c0e")
 	)
 	(wire
 		(pts
@@ -2063,16 +2192,6 @@
 			(type default)
 		)
 		(uuid "e301e5a4-845b-4c73-9626-748dee97f94c")
-	)
-	(wire
-		(pts
-			(xy 55.88 90.17) (xy 55.88 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e59b3347-5dd5-4118-8bd7-54c7abe6947b")
 	)
 	(wire
 		(pts
@@ -2134,7 +2253,7 @@
 		)
 		(uuid "3dfd292d-f3eb-46f4-9141-a8c8c8a4acb6")
 	)
-	(text "OP-amps (operational amplifiers) are needed for this circuit to be used as a voltage-to-current converter for 2-connection sensors (PT, TC)."
+	(text "OP-amps (operational amplifiers) are needed in this circuit to buffer and condition the current-to-voltage conversion from the pressure transducer sensors. \nAlso used at the negative line in a buffered voltage divider for the negative terminal of the HALL sensor connection."
 		(exclude_from_sim no)
 		(at 35.306 40.386 0)
 		(effects
@@ -2186,7 +2305,7 @@
 	)
 	(text "Source 1 (Click)\n"
 		(exclude_from_sim no)
-		(at 35.56 42.926 0)
+		(at 35.56 43.434 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -2198,7 +2317,7 @@
 		)
 		(uuid "bc32c3e3-1c2f-4275-8b36-59cd623d0475")
 	)
-	(text "HALL -> Magnetic / Hall-Effect Sensor\nPT -> Pressure Transducer\nTC -> Thermocoupler "
+	(text "HALL -> Magnetic / Hall-Effect Sensor\nPT -> Pressure Transducer\nTC -> Thermocouple\n"
 		(exclude_from_sim no)
 		(at 94.234 130.048 0)
 		(effects
@@ -2214,7 +2333,7 @@
 	)
 	(text "Source 2 (Click)\n"
 		(exclude_from_sim no)
-		(at 50.038 42.926 0)
+		(at 50.038 43.434 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -2226,8 +2345,8 @@
 		)
 		(uuid "ef2dd253-2c0d-41ec-9a11-b114727a161f")
 	)
-	(label "HALL_OUT"
-		(at 59.69 101.6 0)
+	(label "TC_N"
+		(at 44.45 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2235,7 +2354,62 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2870c7e4-523b-4e79-8a50-0d16bd0589af")
+		(uuid "054f02dc-74cb-497b-b371-6a1c49e195e4")
+	)
+	(label "HALL_OUT"
+		(at 96.52 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "16bea3f3-e84b-4964-8021-ede00d7f0f96")
+	)
+	(label "TC_P"
+		(at 96.52 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "24ccacd1-92db-4d7f-95fa-5db87b932654")
+	)
+	(label "HALL_OUT"
+		(at 41.91 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44c185e0-b8d4-49fc-99e7-a0a19f3b6798")
+	)
+	(label "TC_N"
+		(at 96.52 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4838c196-2b0b-4b66-9da4-3c7b253e3b32")
+	)
+	(label "TC_P"
+		(at 44.45 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aebaf5a9-a84f-4ce0-8a03-7395ad15f5f5")
 	)
 	(global_label "GPIO_14"
 		(shape input)
@@ -2497,82 +2671,6 @@
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 55.88 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "099870e8-8692-4380-989b-141eba27cb1a")
-		(property "Reference" "R?"
-			(at 58.42 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 58.42 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 54.102 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 55.88 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c2086c2c-ac24-4f22-a885-4c5849256042")
-		)
-		(pin "1"
-			(uuid "8563a229-e891-477c-81ba-ef58611c0615")
-		)
-		(instances
-			(project "sensor_module"
-				(path "/000b68e4-ef06-4c20-b636-7369874d2a55"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "sensor_module"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
-					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -2982,82 +3080,6 @@
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 55.88 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25be9d24-f7f3-4356-a303-f65fd5622415")
-		(property "Reference" "R?"
-			(at 58.42 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.2k"
-			(at 58.42 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 54.102 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 55.88 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "57b5fca4-f88b-48ae-8a14-d4940168b7e4")
-		)
-		(pin "1"
-			(uuid "f7eb3c9f-aa30-4eff-96b8-50b6fe4ed7ac")
-		)
-		(instances
-			(project ""
-				(path "/000b68e4-ef06-4c20-b636-7369874d2a55"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
-					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -3825,7 +3847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
 			(at 39.37 85.09 0)
 			(effects
 				(font
@@ -4279,78 +4301,6 @@
 			(project ""
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 55.88 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68ea3771-ade8-4d7e-a975-63d3e6c52ac6")
-		(property "Reference" "#PWR?"
-			(at 55.88 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.88 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "727373b4-05e4-4adf-8dff-06a02063add4")
-		)
-		(instances
-			(project ""
-				(path "/000b68e4-ef06-4c20-b636-7369874d2a55"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
-					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -4887,6 +4837,83 @@
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TLV9001IDCK")
+		(at 60.96 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4733a45-a898-4872-8985-7572ef48d889")
+		(property "Reference" "U9"
+			(at 78.74 80.0414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OA-TLV9001IDCK"
+			(at 78.74 82.5814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 66.04 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9001.pdf"
+			(at 60.96 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-power, Rail-to-Rail, 1MHz Operational Amplifier, SOT-353"
+			(at 60.96 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "9c4a899d-2245-4c8a-b469-6f36368df516")
+		)
+		(pin "1"
+			(uuid "a6386c56-96dc-4674-9e12-fcb9b990c83f")
+		)
+		(pin "3"
+			(uuid "513536c8-991c-4cbf-bf4e-7d07913495b2")
+		)
+		(pin "2"
+			(uuid "bfd137ae-0eba-42d7-9e00-dd15c243f209")
+		)
+		(pin "4"
+			(uuid "98e1c402-df29-4140-a297-571be6708778")
+		)
+		(instances
+			(project ""
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "U9")
 					(unit 1)
 				)
 			)
