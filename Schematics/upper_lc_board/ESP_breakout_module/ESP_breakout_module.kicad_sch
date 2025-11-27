@@ -4369,6 +4369,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 105.41) (xy 100.33 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62e36498-80b1-4de9-b8a9-7dd234faf363")
+	)
+	(wire
+		(pts
 			(xy 252.73 67.31) (xy 252.73 68.58)
 		)
 		(stroke
@@ -4438,6 +4448,16 @@
 			(type default)
 		)
 		(uuid "70fc70dd-826b-460c-8bbe-5e30b98bb151")
+	)
+	(wire
+		(pts
+			(xy 93.98 107.95) (xy 100.33 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "729569c2-3e0f-49d2-b65d-75de36ece5ab")
 	)
 	(wire
 		(pts
@@ -4670,6 +4690,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 110.49) (xy 100.33 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2ec83f3-0d3a-401f-aa64-2d16454919ac")
+	)
+	(wire
+		(pts
 			(xy 140.97 67.31) (xy 147.32 67.31)
 		)
 		(stroke
@@ -4879,6 +4909,17 @@
 		)
 		(uuid "24170a7e-e0e8-4829-a085-e818f2a684c7")
 	)
+	(label "GPIO_11"
+		(at 93.98 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "321732e2-9998-49b8-92cf-d22f56a19735")
+	)
 	(label "GPIO_18"
 		(at 149.86 139.7 0)
 		(fields_autoplaced yes)
@@ -4889,6 +4930,17 @@
 			(justify left bottom)
 		)
 		(uuid "38a2f524-2545-4d0c-8fa2-e67dd4964791")
+	)
+	(label "GPIO_13"
+		(at 93.98 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a00b56f-cdfc-483b-ba46-cfa544f8eec3")
 	)
 	(label "GPIO_9"
 		(at 93.98 97.79 0)
@@ -4912,6 +4964,17 @@
 		)
 		(uuid "3dcc7e2c-7791-450b-9603-7c483d4bd50d")
 	)
+	(label "GPIO_12"
+		(at 34.29 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "44a97600-f2bb-4e43-92dd-b969211b19aa")
+	)
 	(label "GPIO_17"
 		(at 130.81 74.93 0)
 		(fields_autoplaced yes)
@@ -4922,6 +4985,17 @@
 			(justify left bottom)
 		)
 		(uuid "45dc09ad-fcfa-4821-ab4a-7eda23640779")
+	)
+	(label "GPIO_13"
+		(at 34.29 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "507b4a2c-c9f8-49c0-97a1-5a68ca667b33")
 	)
 	(label "USB_N"
 		(at 199.39 76.2 0)
@@ -5089,6 +5163,17 @@
 		)
 		(uuid "df127b40-a8ad-4f7d-8c29-677cacded8c9")
 	)
+	(label "GPIO_11"
+		(at 29.21 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6ba062e-f2a9-49ef-8636-e0f7c1ba4a9d")
+	)
 	(label "GPIO_8"
 		(at 34.29 185.42 180)
 		(fields_autoplaced yes)
@@ -5099,6 +5184,17 @@
 			(justify right bottom)
 		)
 		(uuid "ed201762-e351-40a8-b554-83de5128570e")
+	)
+	(label "GPIO_14"
+		(at 34.29 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f0ec9ded-e61c-4967-9aaa-fef23882501c")
 	)
 	(label "GPIO_7"
 		(at 93.98 92.71 0)
@@ -5122,6 +5218,17 @@
 			(justify left bottom)
 		)
 		(uuid "f557e1f2-3fe4-4879-8393-dfdf89fe5eaa")
+	)
+	(label "GPIO_14"
+		(at 93.98 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc172400-d3d0-466d-8c51-37ab8818b8a3")
 	)
 	(global_label "GPIO_7"
 		(shape input)
@@ -5180,6 +5287,50 @@
 		(uuid "17860381-dce3-4a6d-ae4d-befb15452b34")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 43.9276 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_14"
+		(shape input)
+		(at 34.29 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1bc7f8df-d9d6-48f1-8897-cb70964157d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.1371 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_12"
+		(shape input)
+		(at 34.29 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40cff9c8-b2ab-446a-aa30-afba69202e78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.1371 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5321,6 +5472,28 @@
 			)
 		)
 	)
+	(global_label "GPIO_13"
+		(shape input)
+		(at 34.29 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea227263-a212-424b-9d70-99a47c0ccc06")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.1371 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO_11"
 		(shape input)
 		(at 34.29 160.02 0)
@@ -5407,6 +5580,75 @@
 			(project ""
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 29.21 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14df2b46-7811-488e-bf21-e36ea5e687d3")
+		(property "Reference" "R27"
+			(at 31.242 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 31.242 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 27.432 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 29.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "96655039-86c1-417f-b27e-a1c5503eefb0")
+		)
+		(pin "1"
+			(uuid "ea8ecd59-42f0-4fae-8823-a89b628bddf3")
+		)
+		(instances
+			(project "upper_lc_board"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -7019,6 +7261,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 29.21 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73e3265e-c0ea-4edd-b64c-41f0927b66cb")
+		(property "Reference" "#PWR065"
+			(at 29.21 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e647e1a-c6d7-40fa-8ff0-bc93e7433415")
+		)
+		(instances
+			(project "upper_lc_board"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 90.17 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7422,6 +7730,75 @@
 			(project ""
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 29.21 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "944a21fd-d060-41f7-83b4-64fd349d8436")
+		(property "Reference" "D13"
+			(at 17.018 87.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FAULT_LED"
+			(at 17.018 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 29.21 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 29.21 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5f754425-3014-4184-895a-e33279fed31f")
+		)
+		(pin "1"
+			(uuid "cee3f7b8-c78a-4191-9fe2-e106a2bd89e7")
+		)
+		(instances
+			(project "upper_lc_board"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/1d6cfe1a-a78a-448d-9dfa-b2b78f04d682"
+					(reference "D13")
 					(unit 1)
 				)
 			)
