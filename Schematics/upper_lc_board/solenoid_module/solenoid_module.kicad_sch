@@ -2673,6 +2673,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 140.97) (xy 99.06 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a21f937-6b7e-4e11-b836-70ee850fcd07")
+	)
+	(wire
+		(pts
 			(xy 203.2 90.17) (xy 204.47 90.17)
 		)
 		(stroke
@@ -2906,7 +2916,7 @@
 	)
 	(global_label "SOL1_RET"
 		(shape input)
-		(at 91.44 142.24 180)
+		(at 91.44 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2916,7 +2926,7 @@
 		)
 		(uuid "b475682b-9bb0-464d-a37c-f2c2269a455c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.323 142.24 0)
+			(at 79.323 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2994,7 +3004,7 @@
 	)
 	(global_label "SOL2_RET"
 		(shape input)
-		(at 91.44 125.73 180)
+		(at 92.71 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3004,7 +3014,7 @@
 		)
 		(uuid "f209c615-d0ee-4fe2-842b-e48aad1f0b7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.323 125.73 0)
+			(at 80.593 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3016,7 +3026,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 95.25 125.73 0)
+		(at 96.52 124.46 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3024,7 +3034,7 @@
 		(dnp no)
 		(uuid "040a17a9-4eba-43d8-9e1a-c38b558572b1")
 		(property "Reference" "D?"
-			(at 95.25 120.65 0)
+			(at 96.52 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3032,7 +3042,7 @@
 			)
 		)
 		(property "Value" "SOL_LED"
-			(at 95.25 122.936 0)
+			(at 96.52 127.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3040,7 +3050,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 95.25 125.73 0)
+			(at 96.52 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3049,7 +3059,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 125.73 0)
+			(at 96.52 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3058,7 +3068,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 95.25 125.73 0)
+			(at 96.52 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3570,7 +3580,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 106.68 125.73 270)
+		(at 107.95 124.46 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3579,7 +3589,7 @@
 		(fields_autoplaced yes)
 		(uuid "3dc931a4-ac27-4712-ad9a-d14823a189e7")
 		(property "Reference" "#PWR?"
-			(at 102.87 125.73 0)
+			(at 104.14 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3588,7 +3598,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 110.49 125.7301 90)
+			(at 111.76 124.4601 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3597,7 +3607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 125.73 0)
+			(at 107.95 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3606,7 +3616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 125.73 0)
+			(at 107.95 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3615,7 +3625,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 106.68 125.73 0)
+			(at 107.95 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3786,7 +3796,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 102.87 142.24 90)
+		(at 105.41 140.97 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3794,7 +3804,7 @@
 		(dnp no)
 		(uuid "48b45f6c-b6db-401d-a964-149a0d2b5d70")
 		(property "Reference" "R?"
-			(at 102.616 136.144 90)
+			(at 105.156 134.874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3802,7 +3812,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 102.616 138.43 90)
+			(at 105.156 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3810,7 +3820,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
-			(at 102.87 144.018 90)
+			(at 105.41 142.748 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3819,7 +3829,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 142.24 0)
+			(at 105.41 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3828,7 +3838,7 @@
 			)
 		)
 		(property "Description" "Current Limiting Resistor"
-			(at 102.87 142.24 0)
+			(at 105.41 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4067,7 +4077,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 106.68 142.24 270)
+		(at 109.22 140.97 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4076,7 +4086,7 @@
 		(fields_autoplaced yes)
 		(uuid "5fdf9798-a2d9-42e9-be52-eea41bd61eef")
 		(property "Reference" "#PWR?"
-			(at 102.87 142.24 0)
+			(at 105.41 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4085,7 +4095,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 110.49 142.2401 90)
+			(at 113.03 140.9701 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4094,7 +4104,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 142.24 0)
+			(at 109.22 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4103,7 +4113,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 142.24 0)
+			(at 109.22 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4112,7 +4122,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 106.68 142.24 0)
+			(at 109.22 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4148,7 +4158,7 @@
 		(dnp no)
 		(uuid "851550c7-c6eb-4d1e-8b1e-036af399ef71")
 		(property "Reference" "R?"
-			(at 175.006 136.906 0)
+			(at 176.784 140.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4438,7 +4448,7 @@
 				)
 			)
 		)
-		(property "Value" "340"
+		(property "Value" "180"
 			(at 168.656 136.144 90)
 			(effects
 				(font
@@ -4561,7 +4571,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 102.87 125.73 90)
+		(at 104.14 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4569,7 +4579,7 @@
 		(dnp no)
 		(uuid "cee78ca4-3e09-4c3a-9d9b-ef2096f0480d")
 		(property "Reference" "R?"
-			(at 102.87 121.158 90)
+			(at 104.14 119.888 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4577,7 +4587,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 102.87 123.19 90)
+			(at 104.14 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4585,7 +4595,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
-			(at 102.87 127.508 90)
+			(at 104.14 126.238 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4594,7 +4604,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 125.73 0)
+			(at 104.14 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4603,7 +4613,7 @@
 			)
 		)
 		(property "Description" "Current Limiting Resistor"
-			(at 102.87 125.73 0)
+			(at 104.14 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4874,7 +4884,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 95.25 142.24 0)
+		(at 95.25 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4882,7 +4892,7 @@
 		(dnp no)
 		(uuid "d75cc21f-0acf-43bc-b9b9-0a76d6e37929")
 		(property "Reference" "D?"
-			(at 93.472 136.398 0)
+			(at 93.472 135.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4890,7 +4900,7 @@
 			)
 		)
 		(property "Value" "SOL_LED"
-			(at 93.472 138.43 0)
+			(at 93.472 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4898,7 +4908,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 95.25 142.24 0)
+			(at 95.25 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4907,7 +4917,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 142.24 0)
+			(at 95.25 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4916,7 +4926,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 95.25 142.24 0)
+			(at 95.25 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
