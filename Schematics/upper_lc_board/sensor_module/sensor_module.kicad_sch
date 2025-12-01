@@ -2914,6 +2914,17 @@
 		)
 		(uuid "054f02dc-74cb-497b-b371-6a1c49e195e4")
 	)
+	(label "PT2_OUT"
+		(at 130.81 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "066fba68-2661-4a00-9628-e4436e3b6d5c")
+	)
 	(label "PT1_OUT"
 		(at 130.81 68.58 180)
 		(fields_autoplaced yes)
@@ -2947,7 +2958,7 @@
 		)
 		(uuid "4838c196-2b0b-4b66-9da4-3c7b253e3b32")
 	)
-	(label "PT1_OUT"
+	(label "PT2_OUT"
 		(at 88.9 124.46 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3225,7 +3236,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 134.62 94.488 90)
 			(effects
 				(font
@@ -3568,7 +3579,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 134.62 81.788 90)
 			(effects
 				(font
@@ -3773,7 +3784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 82.55 66.3448 0)
 			(effects
 				(font
@@ -3982,7 +3993,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 134.62 86.868 90)
 			(effects
 				(font
@@ -4186,7 +4197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 141.9352 92.71 0)
 			(effects
 				(font
@@ -4371,10 +4382,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "350dbf9f-9b39-4714-9a4a-2a2cf45a698b")
 		(property "Reference" "D14"
-			(at 199.39 150.1774 90)
+			(at 199.39 150.114 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4663,7 +4673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 141.9352 80.01 0)
 			(effects
 				(font
@@ -5939,7 +5949,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 134.62 105.918 90)
 			(effects
 				(font
@@ -6275,7 +6285,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 82.55 105.7148 0)
 			(effects
 				(font
@@ -6708,7 +6718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.instrumart.com/assets/Setra-209H-Datasheet.pdf?srsltid=AfmBOopu2crXxkUQG31K4d3R_HBIXk4e909zcQpueoXf2bMSBoYDKgm2"
+		(property "Datasheet" ""
 			(at 39.37 148.59 0)
 			(effects
 				(font
@@ -6717,7 +6727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Pressure Transducer"
+		(property "Description" "Thermocouple"
 			(at 39.37 148.59 0)
 			(effects
 				(font
@@ -7104,7 +7114,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 134.62 70.358 90)
 			(effects
 				(font
@@ -7306,7 +7316,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 134.62 74.168 90)
 			(effects
 				(font
@@ -7507,7 +7517,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 134.62 98.298 90)
 			(effects
 				(font
@@ -7574,7 +7584,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 134.62 62.738 90)
 			(effects
 				(font
@@ -7710,7 +7720,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 104.14 143.8148 0)
 			(effects
 				(font
@@ -7920,7 +7930,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 141.9352 104.14 0)
 			(effects
 				(font
@@ -8055,7 +8065,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 141.9352 68.58 0)
 			(effects
 				(font
