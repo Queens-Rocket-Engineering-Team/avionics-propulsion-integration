@@ -222,8 +222,8 @@
 	(net 77 "unconnected-(U3-Pad5)")
 	(net 78 "unconnected-(U3-NC-Pad7)")
 	(net 79 "unconnected-(U3-NC-Pad9)")
-	(net 80 "unconnected-(U4-NC-Pad4)")
-	(net 81 "unconnected-(U5-NC-Pad4)")
+	(net 80 "Net-(D7-K)")
+	(net 81 "Net-(D9-K)")
 	(net 82 "unconnected-(U6-DNC-Pad5)")
 	(net 83 "Net-(R22-Pad1)")
 	(net 84 "SOL1_RET")
@@ -259,6 +259,8 @@
 	(net 114 "/Sensor Circuitry/PT2_OUT")
 	(net 115 "/Sensor Circuitry/TC_N")
 	(net 116 "/Sensor Circuitry/TC_P")
+	(net 117 "Net-(U4-SS)")
+	(net 118 "Net-(U4-ILIM)")
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "0033b83a-0bff-4576-bf7d-4c3a9980d444")
@@ -874,219 +876,6 @@
 		(model "${KIPRJMOD}/footprints/0679L0250-05/0679L0250-05.step"
 			(offset
 				(xyz 0 -1 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Capacitor_SMD:C_0402_1005Metric"
-		(layer "F.Cu")
-		(uuid "0b75dbb8-9961-4faf-bbd2-556a71dec06a")
-		(at 128.2225 48.89)
-		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
-		(tags "capacitor")
-		(property "Reference" "R10"
-			(at 0 -1.16 0)
-			(layer "F.SilkS")
-			(uuid "d9c92811-eb3b-49fd-a973-ce94f63748fa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "3k"
-			(at 0 1.16 0)
-			(layer "F.Fab")
-			(uuid "483b3d67-9434-408a-b717-c50493428a9d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bd41102b-89e7-431a-8ede-865eddcef17b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d296a572-3bb1-464d-88db-60ef2f2ed2ac")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1e024171-14b2-4569-9016-d8ae6e0deff2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "R_*")
-		(path "/4448a9b0-3cba-4e30-89c0-980036e20f76/2d4ac06f-eb96-43e3-9120-0c3f4271c0f7")
-		(sheetname "Power Circuitry")
-		(sheetfile "power_module/power_module.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -0.107836 -0.36)
-			(end 0.107836 -0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b3695a83-b08f-4cb5-9276-52b4d49a7ea3")
-		)
-		(fp_line
-			(start -0.107836 0.36)
-			(end 0.107836 0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e1e18900-979d-467d-b088-a0cd6e5fe242")
-		)
-		(fp_line
-			(start -0.91 -0.46)
-			(end 0.91 -0.46)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "4b76ea99-5c97-4d85-bf46-3d9f158a98b5")
-		)
-		(fp_line
-			(start -0.91 0.46)
-			(end -0.91 -0.46)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "33fc50d6-0181-459f-9876-d202a3f30da6")
-		)
-		(fp_line
-			(start 0.91 -0.46)
-			(end 0.91 0.46)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "38930f12-3eb1-4778-8bf6-1f0064059b5a")
-		)
-		(fp_line
-			(start 0.91 0.46)
-			(end -0.91 0.46)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "968470ec-55a3-4668-8e3d-d7a3378395d0")
-		)
-		(fp_line
-			(start -0.5 -0.25)
-			(end 0.5 -0.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "03a83850-3b3b-451b-9201-486e77fa3da9")
-		)
-		(fp_line
-			(start -0.5 0.25)
-			(end -0.5 -0.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b21a02a6-7e0b-4bfe-857d-e081a66b1a6d")
-		)
-		(fp_line
-			(start 0.5 -0.25)
-			(end 0.5 0.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9d480356-de0e-4a2e-953e-8147dc15dcbc")
-		)
-		(fp_line
-			(start 0.5 0.25)
-			(end -0.5 0.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "cdd165f9-9bb5-4343-9bcb-e6a0ef3f454d")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "1413a66f-7ac3-432c-a4f6-4d5e3ab517a9")
-			(effects
-				(font
-					(size 0.25 0.25)
-					(thickness 0.04)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -0.48 0)
-			(size 0.56 0.62)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.25)
-			(net 26 "Net-(D5-A)")
-			(pintype "passive")
-			(uuid "564ace4f-8e00-4fea-93ed-965bf3f012da")
-		)
-		(pad "2" smd roundrect
-			(at 0.48 0)
-			(size 0.56 0.62)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.25)
-			(net 93 "+24V_BP")
-			(pintype "passive")
-			(uuid "537ede27-bb8b-4bfe-abff-c2804fbc8b48")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
-			(offset
-				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -3393,7 +3182,7 @@
 			(size 1.125 2.65)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.222222)
-			(net 89 "Net-(D9-A)")
+			(net 81 "Net-(D9-K)")
 			(pintype "passive")
 			(uuid "1342f614-479b-457f-a2e3-486c2f89e06f")
 		)
@@ -3842,7 +3631,7 @@
 				)
 			)
 		)
-		(property "Value" "1.12M"
+		(property "Value" "100k"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6406,7 +6195,7 @@
 				)
 			)
 		)
-		(property "Value" "340"
+		(property "Value" "180"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "30247b93-660f-4bfa-b3f7-f959354f0cde")
@@ -7944,7 +7733,7 @@
 				)
 			)
 		)
-		(property "Value" "200k"
+		(property "Value" "20k"
 			(at 4.5 3.66 90)
 			(layer "F.Fab")
 			(uuid "edc34597-d392-4d7b-9398-c3d98c1bd11a")
@@ -17899,428 +17688,6 @@
 			)
 		)
 	)
-	(footprint "LM66100DCKR:SOT65P210X110-6N"
-		(layer "F.Cu")
-		(uuid "983527bf-4b91-4590-9bf7-25c440364f80")
-		(at 60.235 34.92)
-		(property "Reference" "U4"
-			(at 3 0 0)
-			(layer "F.SilkS")
-			(uuid "c70ea910-c340-4606-ba8b-ee4d3b7f54e7")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "ID_LM66100DCKR"
-			(at 6.418 1.518 0)
-			(layer "F.Fab")
-			(uuid "0e54c945-3464-422f-bfbf-4358661667fc")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "LM66100DCKR:SOT65P210X110-6N"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "57c0dad4-4330-4f8a-a9ee-f2f60e42ab3e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm66100.pdf"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d20e4084-697c-4645-9920-8cc8d008ac97")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Ideal Dioide IC (Part of ORing circuit)"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "05e464f6-ad09-4729-b8d3-d9ad0057418c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "24cd733c-e24c-49bf-acc9-41e848859bb7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.1 mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e792fce4-66e9-4186-930f-a8ddc0b99fb4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Package" "SOT-SC70-6 Texas Instruments"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1dcb57c8-404d-45dd-9d3f-b64baf8880ae")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ba0b5932-1240-40c5-aef8-37b2d69953a5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/LM66100DCKR/Texas+Instruments/view-part/?ref=eda"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bab1462b-27f3-4d0f-be89-0adc94ec01b4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9123b04e-e34c-4149-b373-51cda97b5a9a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PARTREV" "Rev. A"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "86d6c7bf-5672-4a4f-a341-cba63461460a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM66100DCKR/Texas+Instruments/view-part/?ref=snap"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "767ba788-845f-4a4f-a6c8-0b13ea0f6a9b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MP" "LM66100DCKR"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "46afb069-fdfd-44ba-947a-ba055e1580b2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description_1" "\n                        \n                            1.5-V to 5.5-V, 1.5-A, 0.5-µA IQ ideal diode with integrated FET\n                        \n"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "24a64beb-88e3-4452-844e-282a315daa9f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f6b8bf5a-df88-4a6d-b6bd-71bb296b8fd4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Texas Instruments"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "aae3101e-1583-446f-8dc1-1d4967114dba")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/4448a9b0-3cba-4e30-89c0-980036e20f76/f4b32e58-e52c-43f0-90e0-ff4e0893a75e")
-		(sheetname "Power Circuitry")
-		(sheetfile "power_module/power_module.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -0.625 -1.17)
-			(end 0.625 -1.17)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c7ec86a4-c345-4c70-9534-f0d3d77b8c40")
-		)
-		(fp_line
-			(start -0.625 1.17)
-			(end 0.625 1.17)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d9dc5c9f-aadc-4ab7-bc3a-b2585bff8bb5")
-		)
-		(fp_circle
-			(center -2.1 -0.802)
-			(end -2 -0.802)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "8dd1c2d7-f88d-45e3-a8cb-320bf1f4da3f")
-		)
-		(fp_line
-			(start -1.805 -1.25)
-			(end -1.805 1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a6f4c8f8-9d69-4512-b2f5-ca237aa62645")
-		)
-		(fp_line
-			(start -1.805 1.25)
-			(end 1.805 1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "56ad1544-95ce-4adc-a099-fff21388318c")
-		)
-		(fp_line
-			(start 1.805 -1.25)
-			(end -1.805 -1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "3a22895e-4a8d-4e4b-a386-6b383f20b08d")
-		)
-		(fp_line
-			(start 1.805 1.25)
-			(end 1.805 -1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "949602f9-5f1c-4610-9b51-ed600668acab")
-		)
-		(fp_line
-			(start -0.625 -1)
-			(end -0.625 1)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "cb91e066-459a-47bf-b7da-720de76c27ff")
-		)
-		(fp_line
-			(start -0.625 1)
-			(end 0.625 1)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b8201356-868a-4d68-9824-0b940d64e069")
-		)
-		(fp_line
-			(start 0.625 -1)
-			(end -0.625 -1)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c16e8d3b-3eda-463d-8787-d1e0956e92be")
-		)
-		(fp_line
-			(start 0.625 1)
-			(end 0.625 -1)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "74eba40c-2da5-4cda-8ca0-c1e7b9dc3f42")
-		)
-		(fp_circle
-			(center -2.1 -0.802)
-			(end -2 -0.802)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Fab")
-			(uuid "39346bc2-6193-4c5f-a70b-173303d7ae6a")
-		)
-		(pad "1" smd roundrect
-			(at -0.96 -0.65)
-			(size 1.19 0.4)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.125)
-			(net 9 "/Power Circuitry/3V3_BP")
-			(pinfunction "VIN")
-			(pintype "input")
-			(solder_mask_margin 0.102)
-			(uuid "66588d72-d546-40f9-8210-9f8e2f8dfbbe")
-		)
-		(pad "2" smd roundrect
-			(at -0.96 0)
-			(size 1.19 0.4)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.125)
-			(net 5 "GND")
-			(pinfunction "GND")
-			(pintype "power_in")
-			(solder_mask_margin 0.102)
-			(uuid "e2be8043-9b5e-4e28-add4-7c6e8e9739df")
-		)
-		(pad "3" smd roundrect
-			(at -0.96 0.65)
-			(size 1.19 0.4)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.125)
-			(net 39 "Net-(U4-~{CE})")
-			(pinfunction "~{CE}")
-			(pintype "input")
-			(solder_mask_margin 0.102)
-			(uuid "22a22150-2796-4db1-a73a-a9df29a76e92")
-		)
-		(pad "4" smd roundrect
-			(at 0.96 0.65)
-			(size 1.19 0.4)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.125)
-			(net 80 "unconnected-(U4-NC-Pad4)")
-			(pinfunction "NC")
-			(pintype "no_connect")
-			(solder_mask_margin 0.102)
-			(uuid "1e50f0ba-1d2c-4df8-8ae3-8f02b01d2f9d")
-		)
-		(pad "5" smd roundrect
-			(at 0.96 0)
-			(size 1.19 0.4)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.125)
-			(net 5 "GND")
-			(pinfunction "ST")
-			(pintype "output")
-			(solder_mask_margin 0.102)
-			(uuid "ea5c6e7a-aee1-49f3-bf8b-a59116c1e1af")
-		)
-		(pad "6" smd roundrect
-			(at 0.96 -0.65)
-			(size 1.19 0.4)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.125)
-			(net 8 "+3V3")
-			(pinfunction "VOUT")
-			(pintype "output")
-			(solder_mask_margin 0.102)
-			(uuid "4addc102-1bde-47fe-8ec4-6e27b7817871")
-		)
-		(model "${KIPRJMOD}/footprints/LM66100DCKR/LM66100DCKR.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 -90)
-			)
-		)
-	)
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "98533911-6592-4bc6-8215-4570608feebc")
@@ -20435,7 +19802,6 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/4448a9b0-3cba-4e30-89c0-980036e20f76/3b4c13e0-c8b9-4fb4-afae-deed17dfc488")
 		(sheetname "Power Circuitry")
 		(sheetfile "power_module/power_module.kicad_sch")
 		(attr smd)
@@ -22892,7 +22258,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/4448a9b0-3cba-4e30-89c0-980036e20f76/fcc79751-b9fe-420c-afd8-17b5581c90aa")
 		(sheetname "Power Circuitry")
 		(sheetfile "power_module/power_module.kicad_sch")
 		(attr smd)
@@ -25007,6 +24372,625 @@
 			)
 		)
 	)
+	(footprint "TPS2121RUXR:IC_TPS2121RUXR"
+		(layer "F.Cu")
+		(uuid "e0d50fda-4659-43ce-9040-c530b01b50b2")
+		(at 60.02 32.98)
+		(property "Reference" "U4"
+			(at 0.532 -2.2064 0)
+			(layer "F.SilkS")
+			(uuid "e0246f9f-bbc2-42fb-85c4-0ac2f4d4ec84")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PMUX_TPS2121RUXR"
+			(at 4.1896 2.1746 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30d7a725-d71f-49bb-b7ee-c14138463c65")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TPS2121RUXR:IC_TPS2121RUXR"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0faf038-bec9-4aac-9f46-e3ad4cf0e708")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2121.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bdbd83dc-c342-4a85-9a8d-faadc695e9a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Power MUX for power source selection."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5078996-e670-4e21-8618-a45250567a78")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c9e7736-363b-4fbd-8a78-c0e18a19764d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "\n                        \n                            2.7-V to 22-V, 56-mΩ, 4.5-A, power mux with seamless switchover\n                        \n"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60d631f2-e38a-490f-9209-3f4c4ac8ff59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "VQFN-HR-12 Texas Instruments"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21514863-fa53-4d87-a386-85067f411582")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2feb5296-a19d-48e7-8f6e-ebe69a3e6a66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TPS2121RUXR/Texas+Instruments/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd02da91-6b14-4796-9102-41ba704038b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "514a84d0-a829-45e5-8d46-b530961c70f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS2121RUXR/Texas+Instruments/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be6f8ca1-6e1a-4b74-879a-e0617f3636fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "TPS2121RUXR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bd8dde8-8e20-4f82-ba3e-0f49aacb42d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b5dfe70-7bd0-4883-8047-e3e544b10630")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "TEXAS INSTRUMENTS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18a5184a-7984-45f9-a8e8-45690ef023ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/4448a9b0-3cba-4e30-89c0-980036e20f76/54464694-e44a-4fdc-9604-91cded0feb66")
+		(sheetname "Power Circuitry")
+		(sheetfile "power_module/power_module.kicad_sch")
+		(attr smd)
+		(fp_circle
+			(center -1.8 -0.4)
+			(end -1.7 -0.4)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "86ccb42b-0033-43b9-8858-b11d25495413")
+		)
+		(fp_poly
+			(pts
+				(xy -1.25 -0.6) (xy -0.1 -0.6) (xy -0.1 -0.1) (xy -1.25 -0.1)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Mask")
+			(uuid "74a43288-9207-45a6-8387-f025efa38fa5")
+		)
+		(fp_poly
+			(pts
+				(xy -1.25 0.1) (xy -0.1 0.1) (xy -0.1 0.6) (xy -1.25 0.6)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Mask")
+			(uuid "5bd33089-1718-47c2-81ff-50fc4b6f24ed")
+		)
+		(fp_poly
+			(pts
+				(xy -0.9 -1.5) (xy -0.6 -1.5) (xy -0.6 -0.8) (xy -0.9 -0.8)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Mask")
+			(uuid "2377168a-d1e6-41d2-88c4-37461cf63912")
+		)
+		(fp_poly
+			(pts
+				(xy -0.9 0.8) (xy -0.6 0.8) (xy -0.6 1.5) (xy -0.9 1.5)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Mask")
+			(uuid "2eed9cca-4d0a-4470-957b-f3c01c97b8b6")
+		)
+		(fp_poly
+			(pts
+				(xy -0.4 -1.5) (xy -0.1 -1.5) (xy -0.1 -0.8) (xy -0.4 -0.8)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Mask")
+			(uuid "87dd0399-b851-429b-8009-675f8a914027")
+		)
+		(fp_poly
+			(pts
+				(xy -0.4 0.8) (xy -0.1 0.8) (xy -0.1 1.5) (xy -0.4 1.5)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Mask")
+			(uuid "f5973a36-2ad9-4c48-a185-bad390be816d")
+		)
+		(fp_poly
+			(pts
+				(xy 0.1 -1.5) (xy 0.4 -1.5) (xy 0.4 -0.8) (xy 0.1 -0.8)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Mask")
+			(uuid "3d4a0fa1-0ab9-4bca-bb74-b568bb244404")
+		)
+		(fp_poly
+			(pts
+				(xy 0.1 -0.6) (xy 1.25 -0.6) (xy 1.25 -0.1) (xy 0.1 -0.1)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Mask")
+			(uuid "cf9698df-b784-43a9-ad07-7fcb5af55820")
+		)
+		(fp_poly
+			(pts
+				(xy 0.1 0.1) (xy 1.25 0.1) (xy 1.25 0.6) (xy 0.1 0.6)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Mask")
+			(uuid "2e1858b2-9810-4b77-8805-6ed00ee278cc")
+		)
+		(fp_poly
+			(pts
+				(xy 0.1 0.8) (xy 0.4 0.8) (xy 0.4 1.5) (xy 0.1 1.5)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Mask")
+			(uuid "56cf1dea-60af-4cc8-a440-708a57011df2")
+		)
+		(fp_poly
+			(pts
+				(xy 0.6 -1.5) (xy 0.9 -1.5) (xy 0.9 -0.8) (xy 0.6 -0.8)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Mask")
+			(uuid "e7e3dfb0-cead-4dc4-8ce0-ac043bf5aeb5")
+		)
+		(fp_poly
+			(pts
+				(xy 0.6 0.8) (xy 0.9 0.8) (xy 0.9 1.5) (xy 0.6 1.5)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Mask")
+			(uuid "5e291774-50e1-4b64-8463-e614e1c8a287")
+		)
+		(fp_line
+			(start -1.45 -1.7)
+			(end 1.45 -1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5989e1e7-e9cf-469a-8f64-1194fc26d5a2")
+		)
+		(fp_line
+			(start -1.45 1.7)
+			(end -1.45 -1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0b199cf8-0dfc-41c0-8806-c25309488c23")
+		)
+		(fp_line
+			(start 1.45 -1.7)
+			(end 1.45 1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "480a7e4a-ca7b-40fd-8895-c2253c425055")
+		)
+		(fp_line
+			(start 1.45 1.7)
+			(end -1.45 1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6aef4c34-472c-474c-8021-90419b56c18c")
+		)
+		(fp_line
+			(start -1 -1.25)
+			(end 1 -1.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "20b6a7b0-8bec-498b-8eb2-ed910a727e48")
+		)
+		(fp_line
+			(start -1 1.25)
+			(end -1 -1.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "25c44557-a48d-4df0-b972-55a3b54338ad")
+		)
+		(fp_line
+			(start 1 -1.25)
+			(end 1 1.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f2884a56-313b-4c23-be06-eaa885306adc")
+		)
+		(fp_line
+			(start 1 1.25)
+			(end -1 1.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4c868f7d-6755-4f64-b4b6-9f1942ead8fa")
+		)
+		(fp_circle
+			(center -1.8 -0.4)
+			(end -1.7 -0.4)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "dd46ecf5-4c9a-4419-84d0-877eb43732c1")
+		)
+		(pad "1" smd roundrect
+			(at -0.675 -0.35)
+			(size 1.05 0.4)
+			(layers "F.Cu" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 8 "+3V3")
+			(pinfunction "OUT")
+			(pintype "output")
+			(uuid "67311545-6642-44d2-9598-1dd3496f1e54")
+		)
+		(pad "1_1" thru_hole circle
+			(at -0.4 -0.35)
+			(size 0.3 0.3)
+			(drill 0.2)
+			(layers "*.Cu")
+			(remove_unused_layers no)
+			(net 8 "+3V3")
+			(pinfunction "OUT")
+			(pintype "output")
+			(uuid "b04faa1e-ba80-42e1-a648-de8e70dcacff")
+		)
+		(pad "2" smd roundrect
+			(at -0.675 0.35)
+			(size 1.05 0.4)
+			(layers "F.Cu" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 10 "/Power Circuitry/3V3_USB")
+			(pinfunction "IN2")
+			(pintype "input")
+			(uuid "7d520589-a6a2-4e8a-b315-0120f58ffa32")
+		)
+		(pad "2_1" thru_hole circle
+			(at -0.4 0.35)
+			(size 0.3 0.3)
+			(drill 0.2)
+			(layers "*.Cu")
+			(remove_unused_layers no)
+			(net 10 "/Power Circuitry/3V3_USB")
+			(pinfunction "IN2")
+			(pintype "input")
+			(uuid "bfd54ded-f153-4c54-a366-e3604f2380e8")
+		)
+		(pad "3" smd roundrect
+			(at -0.75 1.15)
+			(size 0.2 0.6)
+			(layers "F.Cu" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 5 "GND")
+			(pinfunction "CP2")
+			(pintype "input")
+			(uuid "6b412db5-432f-40ab-a1d8-2df3d03bf03c")
+		)
+		(pad "4" smd roundrect
+			(at -0.25 1.15)
+			(size 0.2 0.6)
+			(layers "F.Cu" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 5 "GND")
+			(pinfunction "OV2")
+			(pintype "input")
+			(uuid "ccd130e2-5e7e-4367-b3e7-6fb9ea80b8f6")
+		)
+		(pad "5" smd roundrect
+			(at 0.25 1.15)
+			(size 0.2 0.6)
+			(layers "F.Cu" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 5 "GND")
+			(pinfunction "OV1")
+			(pintype "input")
+			(uuid "78e63e54-2c80-426e-9f7a-e1d1601ec0bb")
+		)
+		(pad "6" smd roundrect
+			(at 0.75 1.15)
+			(size 0.2 0.6)
+			(layers "F.Cu" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 10 "/Power Circuitry/3V3_USB")
+			(pinfunction "PR1")
+			(pintype "input")
+			(uuid "edb8c6e5-6b8d-4979-bdfb-6472011deeb0")
+		)
+		(pad "7" smd roundrect
+			(at 0.675 0.35)
+			(size 1.05 0.4)
+			(layers "F.Cu" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 9 "/Power Circuitry/3V3_BP")
+			(pinfunction "IN1")
+			(pintype "input")
+			(uuid "b440d6ee-8cb2-4c12-bc4c-fa0839409c33")
+		)
+		(pad "7_1" thru_hole circle
+			(at 0.4 0.35)
+			(size 0.3 0.3)
+			(drill 0.2)
+			(layers "*.Cu")
+			(remove_unused_layers no)
+			(net 9 "/Power Circuitry/3V3_BP")
+			(pinfunction "IN1")
+			(pintype "input")
+			(uuid "7d210c9b-38de-4689-9943-bdb8f7636412")
+		)
+		(pad "8" smd roundrect
+			(at 0.675 -0.35)
+			(size 1.05 0.4)
+			(layers "F.Cu" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 8 "+3V3")
+			(pinfunction "OUT")
+			(pintype "output")
+			(uuid "48d03620-a858-4ca8-8cd8-d793b74ef6ac")
+		)
+		(pad "8_1" thru_hole circle
+			(at 0.4 -0.35)
+			(size 0.3 0.3)
+			(drill 0.2)
+			(layers "*.Cu")
+			(remove_unused_layers no)
+			(net 8 "+3V3")
+			(pinfunction "OUT")
+			(pintype "output")
+			(uuid "6936ad09-bc51-4d50-b307-61123b32cb4f")
+		)
+		(pad "9" smd roundrect
+			(at 0.75 -1.15)
+			(size 0.2 0.6)
+			(layers "F.Cu" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 5 "GND")
+			(pinfunction "ST")
+			(pintype "output")
+			(uuid "491fcc23-7158-4ca4-9d83-4553fcda5624")
+		)
+		(pad "10" smd roundrect
+			(at 0.25 -1.15)
+			(size 0.2 0.6)
+			(layers "F.Cu" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 118 "Net-(U4-ILIM)")
+			(pinfunction "ILIM")
+			(pintype "passive")
+			(uuid "e9129f40-0461-4ba0-88c9-523b0325cee6")
+		)
+		(pad "11" smd roundrect
+			(at -0.25 -1.15)
+			(size 0.2 0.6)
+			(layers "F.Cu" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 117 "Net-(U4-SS)")
+			(pinfunction "SS")
+			(pintype "passive")
+			(uuid "6e659d81-9e14-497c-89ca-ed5d931a16ab")
+		)
+		(pad "12" smd roundrect
+			(at -0.75 -1.15)
+			(size 0.2 0.6)
+			(layers "F.Cu" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 5 "GND")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "24ad33e0-4ce2-4b71-9b3f-514edac1e8f3")
+		)
+		(model "${KIPRJMOD}/footprints/TPS2121RUXR/TPS2121RUXR.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "e2587d09-1394-4ad5-8394-b5e546f7b88c")
@@ -25290,7 +25274,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/4448a9b0-3cba-4e30-89c0-980036e20f76/bfe54116-624f-42e2-9d46-51df9b73ff99")
 		(sheetname "Power Circuitry")
 		(sheetfile "power_module/power_module.kicad_sch")
 		(attr smd)
@@ -25717,7 +25700,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/4448a9b0-3cba-4e30-89c0-980036e20f76/55fe1f1a-dab2-4682-8577-11203ceaa957")
 		(sheetname "Power Circuitry")
 		(sheetfile "power_module/power_module.kicad_sch")
 		(attr smd)
@@ -26782,7 +26764,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/4448a9b0-3cba-4e30-89c0-980036e20f76/1d216e76-b731-40fa-8978-8eea8d0aea8d")
 		(sheetname "Power Circuitry")
 		(sheetfile "power_module/power_module.kicad_sch")
 		(attr smd)
@@ -27918,7 +27899,6 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/4448a9b0-3cba-4e30-89c0-980036e20f76/4bf70b2f-b411-40c5-bb9c-b67083750b1e")
 		(sheetname "Power Circuitry")
 		(sheetfile "power_module/power_module.kicad_sch")
 		(attr smd)
@@ -28060,428 +28040,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "LM66100DCKR:SOT65P210X110-6N"
-		(layer "F.Cu")
-		(uuid "f8103c99-8e68-4ef2-b55c-2d9cfde5db48")
-		(at 60.275 30.92)
-		(property "Reference" "U5"
-			(at 2.96 0 0)
-			(layer "F.SilkS")
-			(uuid "9dcfc5ff-af43-4845-b71f-3dc551c92b1d")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "ID_LM66100DCKR"
-			(at -17.148 18.182 180)
-			(layer "F.Fab")
-			(uuid "c8e60d9d-3cce-4bb5-91eb-a7cc13ca55c1")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "LM66100DCKR:SOT65P210X110-6N"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f09ff742-6788-40e6-bda6-d56c36482746")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm66100.pdf"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7c18e3c1-ed6f-489d-885e-d2156e0e285c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Ideal Diode IC (Part of ORing circuit)"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8d708f07-93c5-4c72-99ad-60c61b0c9fd8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f3e2ed31-d6d2-4729-9c43-87fd18f3fa03")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.1 mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f5387ad5-ef41-458b-a25a-f39b76757885")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Package" "SOT-SC70-6 Texas Instruments"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a3e7b332-6529-48dc-ab21-ada489d43bb8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "93a42a24-3b8e-499a-ba76-ef7c632d3c9c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/LM66100DCKR/Texas+Instruments/view-part/?ref=eda"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "75134245-b300-410e-b87c-15d33e47d9b3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0ba5b4d4-07d2-4e4a-9e52-dddd290fce62")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PARTREV" "Rev. A"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "03c39655-8613-40ea-8cc8-71a9f4385171")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM66100DCKR/Texas+Instruments/view-part/?ref=snap"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0f5a8b4c-a63b-4ca7-ba5b-601c1bda4225")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MP" "LM66100DCKR"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "65af2a8b-4611-4233-b569-b27c1396ac7b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description_1" "\n                        \n                            1.5-V to 5.5-V, 1.5-A, 0.5-µA IQ ideal diode with integrated FET\n                        \n"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "99b9edeb-54b9-4042-97a6-61a9a46d12b4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6c511381-6c30-4e8a-8382-16e13d7a9db9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Texas Instruments"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e89f90df-45c4-49d5-8d95-df4b415ca46b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/4448a9b0-3cba-4e30-89c0-980036e20f76/d60f4f56-1db9-474e-85e7-8a3634cb2bf0")
-		(sheetname "Power Circuitry")
-		(sheetfile "power_module/power_module.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -0.625 -1.17)
-			(end 0.625 -1.17)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "268aff26-4aa5-44d2-af16-ec8d3ce3becf")
-		)
-		(fp_line
-			(start -0.625 1.17)
-			(end 0.625 1.17)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "806b1acc-8707-4e22-8975-ddd3c986a26b")
-		)
-		(fp_circle
-			(center -2.1 -0.802)
-			(end -2 -0.802)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "b11fe247-a845-42e9-aade-18df3205e264")
-		)
-		(fp_line
-			(start -1.805 -1.25)
-			(end -1.805 1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "7c235ccd-1fb7-4267-bae2-df868923e656")
-		)
-		(fp_line
-			(start -1.805 1.25)
-			(end 1.805 1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "c215359d-2ed5-4178-aaf8-31a7413a4855")
-		)
-		(fp_line
-			(start 1.805 -1.25)
-			(end -1.805 -1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "03f3b077-93bf-4f21-be8c-c5d31e73dfd0")
-		)
-		(fp_line
-			(start 1.805 1.25)
-			(end 1.805 -1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "dc410688-2cb4-46ab-9d95-9a4eb45c0fdd")
-		)
-		(fp_line
-			(start -0.625 -1)
-			(end -0.625 1)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6bd1682f-c976-4c27-bb75-3c9138e0d9e4")
-		)
-		(fp_line
-			(start -0.625 1)
-			(end 0.625 1)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "447cc28e-ff05-401a-805c-486c73d5bcb4")
-		)
-		(fp_line
-			(start 0.625 -1)
-			(end -0.625 -1)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f20b056c-1d8d-4886-8ac4-0e8f7d1f8670")
-		)
-		(fp_line
-			(start 0.625 1)
-			(end 0.625 -1)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ce9fe846-e99e-495d-bd0e-7f9ac6cc305d")
-		)
-		(fp_circle
-			(center -2.1 -0.802)
-			(end -2 -0.802)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Fab")
-			(uuid "eea2f51d-1e48-4eeb-83e4-f2dcef9925b0")
-		)
-		(pad "1" smd roundrect
-			(at -0.96 -0.65)
-			(size 1.19 0.4)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.125)
-			(net 10 "/Power Circuitry/3V3_USB")
-			(pinfunction "VIN")
-			(pintype "input")
-			(solder_mask_margin 0.102)
-			(uuid "4f895c15-b348-4e64-8209-1b94bd1b2e07")
-		)
-		(pad "2" smd roundrect
-			(at -0.96 0)
-			(size 1.19 0.4)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.125)
-			(net 5 "GND")
-			(pinfunction "GND")
-			(pintype "power_in")
-			(solder_mask_margin 0.102)
-			(uuid "9d00aae3-0a4c-4d7a-8b72-7ac989cd86b0")
-		)
-		(pad "3" smd roundrect
-			(at -0.96 0.65)
-			(size 1.19 0.4)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.125)
-			(net 40 "Net-(U5-~{CE})")
-			(pinfunction "~{CE}")
-			(pintype "input")
-			(solder_mask_margin 0.102)
-			(uuid "f58ecd93-dbd8-4c53-8d11-60617c099774")
-		)
-		(pad "4" smd roundrect
-			(at 0.96 0.65)
-			(size 1.19 0.4)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.125)
-			(net 81 "unconnected-(U5-NC-Pad4)")
-			(pinfunction "NC")
-			(pintype "no_connect")
-			(solder_mask_margin 0.102)
-			(uuid "55ee830c-53fb-4ce5-82d2-cf67316082f9")
-		)
-		(pad "5" smd roundrect
-			(at 0.96 0)
-			(size 1.19 0.4)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.125)
-			(net 5 "GND")
-			(pinfunction "ST")
-			(pintype "output")
-			(solder_mask_margin 0.102)
-			(uuid "d362e775-5e63-4a6f-9300-d78fa06df6c8")
-		)
-		(pad "6" smd roundrect
-			(at 0.96 -0.65)
-			(size 1.19 0.4)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.125)
-			(net 8 "+3V3")
-			(pinfunction "VOUT")
-			(pintype "output")
-			(solder_mask_margin 0.102)
-			(uuid "9e0dabf5-89df-4648-9339-5aca95733cc0")
-		)
-		(model "${KIPRJMOD}/footprints/LM66100DCKR/LM66100DCKR.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 -90)
 			)
 		)
 	)
@@ -28886,7 +28444,7 @@
 			(size 1.125 2.65)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.222222)
-			(net 88 "Net-(D7-A)")
+			(net 80 "Net-(D7-K)")
 			(pintype "passive")
 			(uuid "693b5c3b-d36c-489f-b428-e4be0e62d6b3")
 		)
