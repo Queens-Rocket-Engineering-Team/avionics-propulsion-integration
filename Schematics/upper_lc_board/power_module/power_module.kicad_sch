@@ -2392,6 +2392,12 @@
 		)
 	)
 	(junction
+		(at 90.17 58.42)
+		(diameter 0)
+		(color 194 0 0 1)
+		(uuid "0073805d-a3c8-4b22-988d-9e3a91bc8a1a")
+	)
+	(junction
 		(at 166.37 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2485,7 +2491,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 58.42) (xy 96.52 58.42)
+			(xy 90.17 58.42) (xy 101.6 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2570,6 +2576,17 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 58.42) (xy 90.17 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(uuid "41efeae9-52bb-4ac9-9196-79d282a17274")
+	)
+	(wire
+		(pts
 			(xy 125.73 88.9) (xy 125.73 91.44)
 		)
 		(stroke
@@ -2639,6 +2656,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "9d444afd-cfef-46d3-ade8-3960f847888f")
+	)
+	(wire
+		(pts
+			(xy 90.17 54.61) (xy 100.33 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(uuid "a36e5ab3-8b12-47e4-a76e-8f2d42a46c7b")
 	)
 	(wire
 		(pts
@@ -2730,6 +2758,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "cbcc3b6e-e8da-4728-ba3a-38106734169e")
+	)
+	(wire
+		(pts
+			(xy 205.74 125.73) (xy 215.9 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d160594d-ff52-4784-8b35-e3b4f5f669a7")
 	)
 	(wire
 		(pts
@@ -2960,7 +2998,7 @@
 		(uuid "87b30f73-84b2-4895-bc66-db818c0aa37e")
 	)
 	(label "3V3_BP"
-		(at 96.52 58.42 180)
+		(at 101.6 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3264,6 +3302,72 @@
 			(project "power_module"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/4448a9b0-3cba-4e30-89c0-980036e20f76"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 100.33 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25401310-2e30-49dc-aafd-7b85a5894cf0")
+		(property "Reference" "#FLG03"
+			(at 102.235 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 104.14 45.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1869fe2e-1db2-4e45-a9b7-3142bca6380a")
+		)
+		(instances
+			(project "upper_lc_board"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/4448a9b0-3cba-4e30-89c0-980036e20f76"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -5718,6 +5822,72 @@
 			(project "power_module"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/4448a9b0-3cba-4e30-89c0-980036e20f76"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 215.9 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87618136-82ee-4f6b-9c79-d6c49e42c205")
+		(property "Reference" "#FLG02"
+			(at 217.805 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 219.71 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 215.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c64ed4a-0c45-4feb-97d1-f4f42b1fdaa7")
+		)
+		(instances
+			(project "upper_lc_board"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/4448a9b0-3cba-4e30-89c0-980036e20f76"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
