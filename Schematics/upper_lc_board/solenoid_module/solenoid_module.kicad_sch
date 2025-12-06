@@ -3232,7 +3232,7 @@
 				)
 			)
 		)
-		(property "Value" "SOL_LED"
+		(property "Value" "SOL2_LED"
 			(at 95.25 122.936 0)
 			(effects
 				(font
@@ -5090,7 +5090,7 @@
 				)
 			)
 		)
-		(property "Value" "SOL_LED"
+		(property "Value" "SOL1_LED"
 			(at 93.472 138.43 0)
 			(effects
 				(font
