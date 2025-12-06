@@ -854,139 +854,6 @@
 				)
 			)
 		)
-		(symbol "Diode:1.5KExxA"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1.5KExxA"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/88301/15ke.pdf"
-				(at -1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1500W unidirectional TVS diode, DO-201AE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transient voltage suppressor TRANSZORB®"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D?DO?201AE*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1.5KExxA_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1.5KExxA_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "IRLZ44N:IRLZ44N"
 			(pin_names
 				(offset 1.016)
@@ -1473,6 +1340,329 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SMA6L30A:SMA6L30A"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CR"
+				(at 5.08 4.445 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SMA6L30A"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SMASeries_LTF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "SMA6L30A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SMA6L30A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SMASeries_LTF SMASeries_LTF-M SMASeries_LTF-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMA6L30A_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.905) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.905) (xy 3.81 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 6.35 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 3.81 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SMA6L30A_1_2"
+				(polyline
+					(pts
+						(xy -1.905 3.81) (xy 1.905 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy -1.905 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 0 7.62)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 3.81) (xy 0 6.35)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 6.35) (xy -1.905 6.35)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2614,10 +2804,10 @@
 		(uuid "16a7ae0c-b463-44be-952d-fa80f2e2cf04")
 	)
 	(junction
-		(at 100.33 59.69)
+		(at 100.33 58.42)
 		(diameter 0)
 		(color 132 0 0 1)
-		(uuid "450d9138-6e71-41a2-9175-609fc4a5ca96")
+		(uuid "ade607ae-f557-4120-b685-fe9914466279")
 	)
 	(junction
 		(at 100.33 53.34)
@@ -2640,6 +2830,28 @@
 			(type default)
 		)
 		(uuid "3d986e36-6913-439d-989c-414ab9f83331")
+	)
+	(wire
+		(pts
+			(xy 100.33 58.42) (xy 100.33 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(uuid "415010db-058b-4338-b50a-b16936725db4")
+	)
+	(wire
+		(pts
+			(xy 100.33 53.34) (xy 100.33 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(uuid "4608596d-c5d7-4482-9e3b-f3b58b5d5ea7")
 	)
 	(wire
 		(pts
@@ -2680,17 +2892,6 @@
 			(type default)
 		)
 		(uuid "b8b18c18-5a08-434b-9873-f7ff4b534ee8")
-	)
-	(wire
-		(pts
-			(xy 100.33 53.34) (xy 100.33 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 0 0 1)
-		)
-		(uuid "bd6f2afa-296c-4679-a8b4-1480ba593ae7")
 	)
 	(wire
 		(pts
@@ -3433,7 +3634,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 59.69 270)
+		(at 90.17 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3441,7 +3642,7 @@
 		(dnp no)
 		(uuid "125d9a5c-79e0-4afd-ab28-b15e7c6ee57a")
 		(property "Reference" "#PWR081"
-			(at 86.36 59.69 0)
+			(at 83.82 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3450,7 +3651,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.884 59.69 90)
+			(at 85.344 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3458,7 +3659,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 59.69 0)
+			(at 90.17 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3467,7 +3668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 59.69 0)
+			(at 90.17 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3476,7 +3677,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 59.69 0)
+			(at 90.17 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3669,7 +3870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SK44BL-TP:DIOM4336X265N"
+		(property "Footprint" "D_FB_SDM4A:SDM4A40EP37B"
 			(at 189.23 121.92 0)
 			(effects
 				(font
@@ -3678,7 +3879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/SK42BL-SK44BL(DO-214AA).pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/SDM4A40EP3.pdf"
 			(at 189.23 121.92 0)
 			(effects
 				(font
@@ -4642,7 +4843,7 @@
 		(dnp no)
 		(uuid "d6188c06-a7f6-42ba-94b0-6d1e7c466d7b")
 		(property "Reference" "F1"
-			(at 102.616 48.26 0)
+			(at 103.632 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5095,8 +5296,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1.5KExxA")
-		(at 96.52 59.69 0)
+		(lib_id "SMA6L30A:SMA6L30A")
+		(at 100.33 58.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5104,7 +5305,7 @@
 		(dnp no)
 		(uuid "dcfa85df-5c6b-4b1a-a79f-bb5cf97f8b6e")
 		(property "Reference" "D8"
-			(at 91.948 65.786 0)
+			(at 91.694 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5112,33 +5313,35 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 91.948 63.246 0)
+			(at 91.694 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SMBJ28A:DIOM5436X244N"
-			(at 96.52 64.77 0)
+		(property "Footprint" "SMA6L30A:SMASeries_LTF-L"
+			(at 100.33 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diodes-smbj-series-datasheet?assetguid=ba555e99-a12d-4f72-a0b6-86b06c67171e"
-			(at 95.25 59.69 0)
+		(property "Datasheet" "SMA6L30A"
+			(at 100.33 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "TVS Diode"
-			(at 96.52 59.69 0)
+			(at 100.33 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5337,7 +5540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SK44BL-TP:DIOM4336X265N"
+		(property "Footprint" "D_FB_SDM4A:SDM4A40EP37B"
 			(at 204.47 83.82 0)
 			(effects
 				(font
@@ -5346,7 +5549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/SK42BL-SK44BL(DO-214AA).pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/SDM4A40EP3.pdf"
 			(at 204.47 83.82 0)
 			(effects
 				(font
