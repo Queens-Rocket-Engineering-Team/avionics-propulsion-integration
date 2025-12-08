@@ -3207,7 +3207,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF_16V"
+		(property "Value" "22uF_16V"
 			(at 57.15 143.5099 0)
 			(effects
 				(font
@@ -3283,7 +3283,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF_63V"
+		(property "Value" "100uF_50V"
 			(at 57.15 167.6399 0)
 			(effects
 				(font
@@ -4522,7 +4522,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF_12V"
+		(property "Value" "22uF_12V"
 			(at 57.15 120.6499 0)
 			(effects
 				(font
