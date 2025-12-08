@@ -5213,7 +5213,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "530480210:MOLEX_530480210"
+		(property "Footprint" "CONNS:CONN02_530470260_MOL"
 			(at 110.49 82.55 0)
 			(effects
 				(font
@@ -5430,7 +5430,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "530480210:MOLEX_530480210"
+		(property "Footprint" "CONNS:CONN02_530470260_MOL"
 			(at 87.63 82.55 0)
 			(effects
 				(font
