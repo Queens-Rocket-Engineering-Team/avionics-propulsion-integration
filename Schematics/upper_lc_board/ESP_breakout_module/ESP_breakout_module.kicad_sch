@@ -5447,17 +5447,6 @@
 		)
 		(uuid "ad121e1b-6167-47a7-9e38-3d29f4a5ab27")
 	)
-	(label "GPIO_7"
-		(at 41.91 170.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "adf890b0-79a0-44c1-8aaf-0765d13948a9")
-	)
 	(label "USB_P"
 		(at 118.11 78.74 0)
 		(fields_autoplaced yes)
@@ -5958,28 +5947,6 @@
 		(uuid "b94ee599-32a7-4f11-9bb1-51278390a609")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 51.4871 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_7"
-		(shape input)
-		(at 41.91 170.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e0168ffb-b236-43f9-9b96-669028c0e804")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.5476 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
