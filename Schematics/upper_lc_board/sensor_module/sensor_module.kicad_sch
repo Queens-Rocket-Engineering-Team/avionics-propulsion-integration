@@ -2376,6 +2376,18 @@
 		(uuid "72e399e6-0faa-430f-a8c5-34aa372e5eef")
 	)
 	(junction
+		(at 53.34 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79a36075-d7f3-4f90-a9ea-cc4e6198fb67")
+	)
+	(junction
+		(at 54.61 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c57eb8f-aba4-4d02-8c05-55ed29069150")
+	)
+	(junction
 		(at 140.97 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2406,12 +2418,6 @@
 		(uuid "8da8195d-b9dc-4bbf-beff-715f51d27677")
 	)
 	(junction
-		(at 59.69 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a0fb499-e5d3-4937-a5b2-5e61f169e5a5")
-	)
-	(junction
 		(at 205.74 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2428,12 +2434,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad8eb8da-f509-4576-aa92-a494e406b392")
-	)
-	(junction
-		(at 59.69 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c00bcc13-1808-4199-b70d-2b5752ba78c4")
 	)
 	(junction
 		(at 199.39 128.27)
@@ -2632,16 +2632,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 71.12) (xy 59.69 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dce94b0-723b-4453-820d-bca0a4abf990")
-	)
-	(wire
-		(pts
 			(xy 73.66 99.06) (xy 76.2 99.06)
 		)
 		(stroke
@@ -2759,16 +2749,6 @@
 			(type default)
 		)
 		(uuid "34025db8-aee4-4412-9ffb-8fe785ce4eb3")
-	)
-	(wire
-		(pts
-			(xy 59.69 71.12) (xy 68.58 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34700fd2-aac3-4a00-83e7-0410c0be2765")
 	)
 	(wire
 		(pts
@@ -2953,6 +2933,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 71.12) (xy 44.45 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59fd432f-22b1-4a14-8bcb-44819e04e6d6")
+	)
+	(wire
+		(pts
 			(xy 77.47 151.13) (xy 77.47 143.51)
 		)
 		(stroke
@@ -3010,6 +3000,16 @@
 			(type default)
 		)
 		(uuid "63510b28-60c9-4dc9-974f-343fe96d3259")
+	)
+	(wire
+		(pts
+			(xy 53.34 114.3) (xy 44.45 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6599182f-aa6f-481a-91f0-dbcceb7e43ee")
 	)
 	(wire
 		(pts
@@ -3243,16 +3243,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 114.3) (xy 59.69 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "918cda94-8948-46b2-8afc-74dc5a1fcb1b")
-	)
-	(wire
-		(pts
 			(xy 138.43 91.44) (xy 140.97 91.44)
 		)
 		(stroke
@@ -3260,16 +3250,6 @@
 			(type default)
 		)
 		(uuid "927ffbe9-1493-4b9c-be51-f1a54f9938d2")
-	)
-	(wire
-		(pts
-			(xy 59.69 114.3) (xy 68.58 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "962c7fd3-e37a-47c0-b1ac-a29c40313584")
 	)
 	(wire
 		(pts
@@ -3351,6 +3331,16 @@
 			(type default)
 		)
 		(uuid "abda0dc8-1079-4271-8fad-0d009c1ffce8")
+	)
+	(wire
+		(pts
+			(xy 54.61 71.12) (xy 68.58 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acb400f9-834f-4d15-a9ac-9e6255d680e5")
 	)
 	(wire
 		(pts
@@ -3521,6 +3511,16 @@
 			(type default)
 		)
 		(uuid "e301e5a4-845b-4c73-9626-748dee97f94c")
+	)
+	(wire
+		(pts
+			(xy 53.34 114.3) (xy 68.58 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e980e9d6-9dc9-4ed8-87ac-f32a9ac29b5b")
 	)
 	(wire
 		(pts
@@ -3777,6 +3777,17 @@
 		)
 		(uuid "3dfd292d-f3eb-46f4-9141-a8c8c8a4acb6")
 	)
+	(text "4-20ma input current:\n3.3v = 20ma*165ohms\n0.66v = 4ma*165ohms"
+		(exclude_from_sim no)
+		(at 43.688 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "402936e9-5038-4581-b1eb-032ee05b5454")
+	)
 	(text "OP-amps (operational amplifiers) are needed in this circuit to buffer and condition the current-to-voltage conversion from the pressure transducer sensors. \nAlso used at the negative line in a buffered voltage divider for the negative terminal of the HALL sensor & TC connection."
 		(exclude_from_sim no)
 		(at 16.764 24.892 0)
@@ -3884,6 +3895,21 @@
 			(justify left)
 		)
 		(uuid "c2986e7a-4994-4a5e-8a83-c6fecd386c14")
+	)
+	(text "AIN Calculations"
+		(exclude_from_sim no)
+		(at 32.512 47.244 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "cd258750-ca63-4cf3-bd85-3294960e5360")
 	)
 	(text "*using standard resistor 0402 footprint for now\n*place as close to TC connector as possible.\n*will need conditoning in code (averaging)"
 		(exclude_from_sim no)
@@ -4985,6 +5011,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 53.34 106.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18277833-4f3c-4bf3-b9f2-6fa7cc1d4cc5")
+		(property "Reference" "#PWR040"
+			(at 53.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
+			(at 53.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hall effect sensor."
+			(at 53.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf4703c3-1f38-4d03-98db-85f4c23de5b2")
+		)
+		(instances
+			(project "upper_lc_board"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 256.54 73.66 90)
 		(unit 1)
@@ -5118,72 +5210,6 @@
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 59.69 114.3 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c6b1dc8-a8ce-4c5b-9e79-aea4797dee86")
-		(property "Reference" "#PWR095"
-			(at 59.69 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 59.69 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hall effect sensor."
-			(at 59.69 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c4bd868-92cf-4cff-9a6a-ef7c75b3b59e")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
-					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -8163,7 +8189,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 48.26 71.12 90)
+		(at 54.61 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8171,7 +8197,7 @@
 		(dnp no)
 		(uuid "8f74ea40-f118-4071-a138-2494025303b6")
 		(property "Reference" "R18"
-			(at 48.26 65.786 90)
+			(at 51.054 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8179,7 +8205,7 @@
 			)
 		)
 		(property "Value" "165"
-			(at 48.26 68.326 90)
+			(at 51.054 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8187,7 +8213,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 48.26 72.898 90)
+			(at 56.388 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8196,7 +8222,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 71.12 0)
+			(at 54.61 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8205,7 +8231,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 48.26 71.12 0)
+			(at 54.61 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9816,72 +9842,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 59.69 71.12 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d063fbe7-03ca-4335-babc-5d6c8fa6d6f5")
-		(property "Reference" "#PWR062"
-			(at 59.69 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 59.69 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hall effect sensor."
-			(at 59.69 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e9f2024-756a-4c5e-be5f-637c85cc032d")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
-					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 134.62 59.69 90)
 		(unit 1)
@@ -10287,7 +10247,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 48.26 114.3 90)
+		(at 53.34 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10295,7 +10255,7 @@
 		(dnp no)
 		(uuid "eb4e7c50-76b1-45b9-b908-a6ae1ce2d116")
 		(property "Reference" "R19"
-			(at 48.26 108.966 90)
+			(at 48.768 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10303,7 +10263,7 @@
 			)
 		)
 		(property "Value" "165"
-			(at 48.26 111.506 90)
+			(at 48.768 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10311,7 +10271,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 48.26 116.078 90)
+			(at 55.118 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10320,7 +10280,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 114.3 0)
+			(at 53.34 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10329,7 +10289,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 48.26 114.3 0)
+			(at 53.34 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10491,6 +10451,72 @@
 			(project ""
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0a8cbf0-5f77-4ce8-ae3a-271d2ff6ad1c")
+		(property "Reference" "#PWR02"
+			(at 54.61 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
+			(at 54.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hall effect sensor."
+			(at 54.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01d5869e-d3e0-4826-9143-ea9aee1b0ca1")
+		)
+		(instances
+			(project "upper_lc_board"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
