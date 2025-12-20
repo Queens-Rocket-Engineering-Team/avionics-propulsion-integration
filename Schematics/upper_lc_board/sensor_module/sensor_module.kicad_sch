@@ -11,243 +11,6 @@
 		(comment 1 "Jeevan Sanchez")
 	)
 	(lib_symbols
-		(symbol "53048-0310:53048-0310"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "P"
-				(at -1.27 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "53048-0310"
-				(at -1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "53048-0310:53048-0310"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Molex"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n                        \n                            3 way through board PCB 90deg header | Molex Incorporated 53048-0310\n                        \n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/53048-0310/Molex/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "53048-0310"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/53048-0310/Molex/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "53048-0310_0_0"
-				(rectangle
-					(start -1.27 -5.08)
-					(end 3.81 5.08)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.6096)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.6096)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.6096)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "ADS131M04:ADS131M04IPWR"
 			(pin_names
 				(offset 1.016)
@@ -1100,6 +863,235 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J2"
+				(at 9.906 -1.016 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HALL"
+				(at 8.128 -1.27 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "53047-0460:MOLEX_53047-0460"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.digikey.ca/en/products/detail/molex/0530480410/242866"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "HALL Sensor 4-pin Connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "GND"
+					(at 2.286 2.54 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "SCL\n"
+					(at 2.286 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "SDA\n"
+					(at 2.286 -2.54 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "VCC\n"
+					(at 2.54 -5.08 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2286,16 +2278,16 @@
 		(uuid "015a9d17-2a7e-4151-bcbc-7922a66c0bf4")
 	)
 	(junction
+		(at 55.88 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0703bb77-68c0-4b74-a376-950eb1cd8b3d")
+	)
+	(junction
 		(at 264.16 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a63120b-1f70-4b9d-b68b-49447fceecea")
-	)
-	(junction
-		(at 58.42 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e8b6bfe-b882-456d-94d1-77c65beba7be")
 	)
 	(junction
 		(at 73.66 106.68)
@@ -2316,12 +2308,6 @@
 		(uuid "2d4e4907-6a21-4740-84a2-d5d8cd51ed8e")
 	)
 	(junction
-		(at 140.97 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "325e1872-1cd9-45d9-b5a0-d00ff166b62b")
-	)
-	(junction
 		(at 191.77 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2338,12 +2324,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4dc9af29-61e4-4c56-8d67-3f3ba2b8bad2")
-	)
-	(junction
-		(at 41.91 176.53)
-		(diameter 0)
-		(color 194 0 0 1)
-		(uuid "4e5eace8-16a1-465d-bb93-3604326f71ce")
 	)
 	(junction
 		(at 241.3 140.97)
@@ -2370,34 +2350,10 @@
 		(uuid "6dba2c8b-c4e9-4ffd-a43d-27ad7ecb07c7")
 	)
 	(junction
-		(at 87.63 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72e399e6-0faa-430f-a8c5-34aa372e5eef")
-	)
-	(junction
-		(at 53.34 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79a36075-d7f3-4f90-a9ea-cc4e6198fb67")
-	)
-	(junction
-		(at 54.61 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c57eb8f-aba4-4d02-8c05-55ed29069150")
-	)
-	(junction
 		(at 140.97 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80ca9d3e-2e6e-4847-b01a-99a9a46222ef")
-	)
-	(junction
-		(at 140.97 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83fa2aee-f60c-4d44-8531-ffab223755b1")
 	)
 	(junction
 		(at 209.55 52.07)
@@ -2416,6 +2372,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8da8195d-b9dc-4bbf-beff-715f51d27677")
+	)
+	(junction
+		(at 151.13 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e30c770-8f3c-4ec6-9546-b2f8884b54ac")
 	)
 	(junction
 		(at 205.74 52.07)
@@ -2478,10 +2440,10 @@
 		(uuid "edbbfc81-5bb1-4aaf-8992-bc8209be01ed")
 	)
 	(junction
-		(at 77.47 151.13)
+		(at 55.88 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f5fcd624-be4b-4ba9-b886-53772434958c")
+		(uuid "f031b418-859e-4c03-8088-28a97a1782bd")
 	)
 	(junction
 		(at 191.77 49.53)
@@ -2491,34 +2453,13 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 170.18) (xy 48.26 149.86)
+			(xy 151.13 80.01) (xy 151.13 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "05cf3d2a-9ee4-4f5a-afa4-600f2cdeded0")
-	)
-	(wire
-		(pts
-			(xy 41.91 177.8) (xy 41.91 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 0 0 1)
-		)
-		(uuid "096dbe11-8e14-4650-a3d5-5ab593490512")
-	)
-	(wire
-		(pts
-			(xy 44.45 170.18) (xy 48.26 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "098b851f-02fc-40bc-8316-6c0af5882c0b")
+		(uuid "0170e10e-d7e2-498c-b8af-0c2e0997c8ff")
 	)
 	(wire
 		(pts
@@ -2529,16 +2470,6 @@
 			(type default)
 		)
 		(uuid "0d4d54a7-31b6-4999-acf7-d152366caf70")
-	)
-	(wire
-		(pts
-			(xy 87.63 161.29) (xy 87.63 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0eb2f504-26f7-4566-9a4d-086952bb9198")
 	)
 	(wire
 		(pts
@@ -2592,6 +2523,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 156.21) (xy 57.15 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "196dbccb-0245-4d11-b7a7-67ca18e5a938")
+	)
+	(wire
+		(pts
 			(xy 73.66 63.5) (xy 73.66 66.04)
 		)
 		(stroke
@@ -2599,16 +2540,6 @@
 			(type default)
 		)
 		(uuid "19d5824e-6514-4f60-810c-701de2eec031")
-	)
-	(wire
-		(pts
-			(xy 140.97 83.82) (xy 148.59 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a1309cc-915c-4139-a03d-a8c5753b4834")
 	)
 	(wire
 		(pts
@@ -2652,16 +2583,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 149.86) (xy 58.42 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2945914f-42c9-4bfd-96ab-7f6ef9d25dcd")
-	)
-	(wire
-		(pts
 			(xy 90.17 73.66) (xy 86.36 73.66)
 		)
 		(stroke
@@ -2692,6 +2613,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 114.3) (xy 55.88 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c2f43fc-c47d-4a92-9f12-7a7b27893c19")
+	)
+	(wire
+		(pts
 			(xy 231.14 116.84) (xy 241.3 116.84)
 		)
 		(stroke
@@ -2709,16 +2640,6 @@
 			(type default)
 		)
 		(uuid "2d37e11d-0940-4a12-a73d-6086a4338688")
-	)
-	(wire
-		(pts
-			(xy 69.85 176.53) (xy 69.85 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3145a83c-fbab-484d-adaa-77fadcea38e0")
 	)
 	(wire
 		(pts
@@ -2782,6 +2703,26 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 71.12) (xy 68.58 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "387b4300-47ec-4487-8d37-dd39e36d2886")
+	)
+	(wire
+		(pts
+			(xy 53.34 156.21) (xy 53.34 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac2e0bf-af6d-43e1-9194-d6c63c1fb2a5")
+	)
+	(wire
+		(pts
 			(xy 147.32 74.93) (xy 151.13 74.93)
 		)
 		(stroke
@@ -2822,23 +2763,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 165.1) (xy 87.63 165.1)
+			(xy 151.13 82.55) (xy 151.13 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4631b40f-f6e6-47c7-820c-613c611ae032")
-	)
-	(wire
-		(pts
-			(xy 138.43 83.82) (xy 140.97 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4720a857-29f1-4b64-a702-3dcdf1aa6fd3")
+		(uuid "44b2e2bd-598c-4f69-a512-bf4988f8bb71")
 	)
 	(wire
 		(pts
@@ -2902,6 +2833,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 71.12) (xy 55.88 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ff285b-0eef-4028-96f5-8f132037233a")
+	)
+	(wire
+		(pts
 			(xy 67.31 119.38) (xy 68.58 119.38)
 		)
 		(stroke
@@ -2909,47 +2850,6 @@
 			(type default)
 		)
 		(uuid "55d4b7ea-81bc-45e9-b280-d27fbcc26ae2")
-	)
-	(wire
-		(pts
-			(xy 148.59 80.01) (xy 151.13 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "568e7920-e2bb-4b88-8eab-a5ec2d69f3ab")
-	)
-	(wire
-		(pts
-			(xy 41.91 170.18) (xy 41.91 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 0 0 1)
-		)
-		(uuid "58a1c772-40c3-4c51-9d39-726af9efcc0a")
-	)
-	(wire
-		(pts
-			(xy 54.61 71.12) (xy 44.45 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59fd432f-22b1-4a14-8bcb-44819e04e6d6")
-	)
-	(wire
-		(pts
-			(xy 77.47 151.13) (xy 77.47 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a56f1f0-2773-4a8f-86c0-07d233589f66")
 	)
 	(wire
 		(pts
@@ -3003,13 +2903,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 114.3) (xy 44.45 114.3)
+			(xy 40.64 161.29) (xy 53.34 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6599182f-aa6f-481a-91f0-dbcceb7e43ee")
+		(uuid "646e88a7-92bd-441d-a841-559cf70cf511")
 	)
 	(wire
 		(pts
@@ -3020,16 +2920,6 @@
 			(type default)
 		)
 		(uuid "69604dbf-6eb3-4fbf-b866-33193205f67f")
-	)
-	(wire
-		(pts
-			(xy 140.97 91.44) (xy 151.13 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a04929c-f3b6-4eec-bab8-7f765fbeb48f")
 	)
 	(wire
 		(pts
@@ -3120,26 +3010,6 @@
 			(type default)
 		)
 		(uuid "7a7ebc0e-a461-4c2a-9af2-b1ea7d844ddc")
-	)
-	(wire
-		(pts
-			(xy 151.13 82.55) (xy 151.13 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ae3ab22-a734-41d2-b82f-2ec9e45f485f")
-	)
-	(wire
-		(pts
-			(xy 58.42 158.75) (xy 58.42 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f2289d8-89cb-4198-9fa9-f46e000588ae")
 	)
 	(wire
 		(pts
@@ -3243,16 +3113,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 91.44) (xy 140.97 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "927ffbe9-1493-4b9c-be51-f1a54f9938d2")
-	)
-	(wire
-		(pts
 			(xy 191.77 52.07) (xy 205.74 52.07)
 		)
 		(stroke
@@ -3294,16 +3154,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 80.01) (xy 148.59 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a42f9237-63ec-40ae-bdaa-144bbf5576a8")
-	)
-	(wire
-		(pts
 			(xy 264.16 132.08) (xy 257.81 132.08)
 		)
 		(stroke
@@ -3314,13 +3164,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 151.13) (xy 77.47 153.67)
+			(xy 38.1 158.75) (xy 38.1 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aacc82d3-aaa3-4b5e-91cc-4cdc056e202a")
+		(uuid "a9878076-fa51-43c2-bfb8-56aa6a5452ac")
 	)
 	(wire
 		(pts
@@ -3334,13 +3184,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 71.12) (xy 68.58 71.12)
+			(xy 40.64 158.75) (xy 40.64 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "acb400f9-834f-4d15-a9ac-9e6255d680e5")
+		(uuid "ac76d220-36ed-4da7-a71d-f37da7217ff3")
 	)
 	(wire
 		(pts
@@ -3354,6 +3204,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 113.03) (xy 55.88 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8773ec5-3b72-4c89-ad9b-65057e62b687")
+	)
+	(wire
+		(pts
 			(xy 199.39 151.13) (xy 199.39 142.24)
 		)
 		(stroke
@@ -3364,23 +3224,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 143.51) (xy 80.01 143.51)
+			(xy 55.88 114.3) (xy 68.58 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b947636a-ffa8-468b-a916-5a841b352520")
-	)
-	(wire
-		(pts
-			(xy 58.42 158.75) (xy 72.39 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3276fd7-faf3-4505-a229-25a7dc1e6dcf")
+		(uuid "c5f00601-b64f-403c-92ea-50cbded53878")
 	)
 	(wire
 		(pts
@@ -3391,26 +3241,6 @@
 			(type default)
 		)
 		(uuid "c622d990-19eb-4b8e-96a1-dc3d8c5855dc")
-	)
-	(wire
-		(pts
-			(xy 87.63 165.1) (xy 87.63 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce6afc0e-bfd2-4de1-a86e-7e27aff6dcd7")
-	)
-	(wire
-		(pts
-			(xy 69.85 163.83) (xy 72.39 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceccb0c4-d212-4d5b-b7b8-6f12a47601ba")
 	)
 	(wire
 		(pts
@@ -3441,16 +3271,6 @@
 			(type default)
 		)
 		(uuid "da65f13f-4e8b-46ec-9edd-6c081f76a5d2")
-	)
-	(wire
-		(pts
-			(xy 87.63 176.53) (xy 69.85 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbd9d52d-4a64-4810-8772-4a4d84bf219f")
 	)
 	(wire
 		(pts
@@ -3494,13 +3314,13 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 157.48) (xy 58.42 158.75)
+			(xy 38.1 162.56) (xy 57.15 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e154603e-1028-4a4f-ae79-8bf6b1a2a661")
+		(uuid "e276f5de-3c22-4b05-a81c-13e4d7621bb0")
 	)
 	(wire
 		(pts
@@ -3511,16 +3331,6 @@
 			(type default)
 		)
 		(uuid "e301e5a4-845b-4c73-9626-748dee97f94c")
-	)
-	(wire
-		(pts
-			(xy 53.34 114.3) (xy 68.58 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e980e9d6-9dc9-4ed8-87ac-f32a9ac29b5b")
 	)
 	(wire
 		(pts
@@ -3659,7 +3469,7 @@
 	)
 	(rectangle
 		(start 31.242 136.398)
-		(end 100.838 190.246)
+		(end 69.85 165.1)
 		(stroke
 			(width 0)
 			(type default)
@@ -3788,7 +3598,7 @@
 		)
 		(uuid "402936e9-5038-4581-b1eb-032ee05b5454")
 	)
-	(text "OP-amps (operational amplifiers) are needed in this circuit to buffer and condition the current-to-voltage conversion from the pressure transducer sensors. \nAlso used at the negative line in a buffered voltage divider for the negative terminal of the HALL sensor & TC connection."
+	(text "OP-amps (operational amplifiers) are needed in this circuit to buffer and condition the current-to-voltage conversion from the pressure transducer sensors. \nAlso used at the negative line in a buffered voltage divider for the TC connection."
 		(exclude_from_sim no)
 		(at 16.764 24.892 0)
 		(effects
@@ -3939,9 +3749,9 @@
 		)
 		(uuid "d4b6503d-99e2-467a-bc91-1061878fedea")
 	)
-	(text "HALL Sensor Conditioning (Output-Input Scaling)"
+	(text "HALL Sensor Circuitry "
 		(exclude_from_sim no)
-		(at 30.988 135.128 0)
+		(at 30.734 135.382 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3979,30 +3789,8 @@
 		)
 		(uuid "066fba68-2661-4a00-9628-e4436e3b6d5c")
 	)
-	(label "PT1_OUT"
-		(at 130.81 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1cddc38a-11cc-4e3c-a16f-4c1b7d43d28a")
-	)
-	(label "TC_P"
-		(at 130.81 80.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "24ccacd1-92db-4d7f-95fa-5db87b932654")
-	)
 	(label "TC_N"
-		(at 130.81 72.39 180)
+		(at 130.81 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4010,18 +3798,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "4838c196-2b0b-4b66-9da4-3c7b253e3b32")
-	)
-	(label "PT2_OUT"
-		(at 90.17 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5b974a86-880e-4f0b-9b46-c3e2e652f329")
+		(uuid "5fc00a62-8bae-49ff-8bea-feb26a503c73")
 	)
 	(label "TC_P"
 		(at 199.39 151.13 180)
@@ -4045,8 +3822,8 @@
 		)
 		(uuid "694c3659-68fd-4357-b066-dc0e23279be6")
 	)
-	(label "HALL_OUT"
-		(at 88.9 165.1 0)
+	(label "PT2_OUT"
+		(at 90.17 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4054,7 +3831,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "70c185a4-4434-4b46-8423-8619059c6f7f")
+		(uuid "70339ec8-28ed-49e6-9603-6e7a47818ba3")
 	)
 	(label "VMID"
 		(at 190.5 142.24 180)
@@ -4066,6 +3843,28 @@
 			(justify right bottom)
 		)
 		(uuid "bdbc38d5-69e2-4652-a92b-ddac43d50e92")
+	)
+	(label "TC_P"
+		(at 130.81 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "be2d2d4f-da86-46d9-be9e-e66d03db9b2b")
+	)
+	(label "PT1_OUT"
+		(at 130.81 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d00d7680-c941-4655-9e01-954a5b6aa1a8")
 	)
 	(label "VMID"
 		(at 241.3 114.3 180)
@@ -4089,19 +3888,8 @@
 		)
 		(uuid "e89871fe-6c80-41eb-ae24-22907c615f0f")
 	)
-	(label "HALL_OUT"
-		(at 130.81 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f27f7ef7-9ff0-4c25-aed1-33806f61fa3b")
-	)
 	(label "PT1_OUT"
-		(at 90.17 73.66 0)
+		(at 90.17 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4109,7 +3897,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f32a26fe-8222-4570-be3d-50f7d2a88e7f")
+		(uuid "f83f020e-5abf-45ec-9c3b-8ecf5af9c0bf")
 	)
 	(global_label "GPIO_40"
 		(shape input)
@@ -4309,6 +4097,28 @@
 			)
 		)
 	)
+	(global_label "GPIO_42"
+		(shape input)
+		(at 53.34 148.59 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c220f901-898f-46ba-92a2-ce6b375630b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.34 137.7429 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO_13"
 		(shape input)
 		(at 256.54 62.23 90)
@@ -4328,6 +4138,93 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_41"
+		(shape input)
+		(at 57.15 148.59 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f3795c3c-9ab3-4c5c-a2d8-55e624135157")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.15 137.7429 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 43.18 158.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00ff6710-d2cd-4f32-b81d-5cdfd78c18c4")
+		(property "Reference" "#PWR053"
+			(at 39.37 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 48.514 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 43.18 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "855d12b8-c940-4d0d-95c8-30c7872c7740")
+		)
+		(instances
+			(project "upper_lc_board"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "#PWR053")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -4526,216 +4423,6 @@
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "#PWR0114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 48.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02e79d4e-c15b-418d-a27b-c291da09a3d7")
-		(property "Reference" "#PWR093"
-			(at 124.46 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 127 48.2599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 130.81 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hall effect sensor."
-			(at 130.81 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "521e78bd-0acf-4d07-a7fb-d9f8e5aeaf9a")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
-					(reference "#PWR093")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 58.42 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03053c6a-6d91-4802-81b2-416a47710aca")
-		(property "Reference" "R16"
-			(at 60.96 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.2k"
-			(at 60.96 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 56.642 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 58.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec2d3954-79f6-4b6b-8c6f-27d53eec9738")
-		)
-		(pin "2"
-			(uuid "b0ca10eb-6cfb-4c7e-9828-035954c04174")
-		)
-		(instances
-			(project ""
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 41.91 176.53 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a379e53-5874-4519-a0da-f9e9b51d1746")
-		(property "Reference" "#PWR?"
-			(at 38.1 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 45.72 176.5301 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 41.91 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be92b42e-f8ce-4791-adea-5146557b625d")
-		)
-		(instances
-			(project "sensor_module"
-				(path "/000b68e4-ef06-4c20-b636-7369874d2a55"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "sensor_module"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
-					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -5012,16 +4699,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 106.68 180)
+		(at 55.88 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "18277833-4f3c-4bf3-b9f2-6fa7cc1d4cc5")
 		(property "Reference" "#PWR040"
-			(at 53.34 100.33 0)
+			(at 55.88 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5030,7 +4716,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 101.6 0)
+			(at 55.88 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5038,7 +4724,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 106.68 0)
+			(at 55.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,7 +4733,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 53.34 106.68 0)
+			(at 55.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5056,7 +4742,7 @@
 			)
 		)
 		(property "Description" "Hall effect sensor."
-			(at 53.34 106.68 0)
+			(at 55.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6106,6 +5792,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 53.34 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "421b17ee-fe58-4e13-856d-0aefa918535d")
+		(property "Reference" "R12"
+			(at 47.498 151.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 47.498 153.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 51.562 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 53.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f36fc46b-685b-463e-a5f6-8878bfa0d8f6")
+		)
+		(pin "1"
+			(uuid "fef934d5-dfbb-44a2-ba99-f9b4a3eebe49")
+		)
+		(instances
+			(project "upper_lc_board"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 73.66 63.5 90)
 		(unit 1)
@@ -6302,6 +6057,72 @@
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "493be61c-36e4-4e04-bef0-00459ecb12b0")
+		(property "Reference" "#PWR059"
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.416 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
+			(at 151.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hall effect sensor."
+			(at 151.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aef3312d-9aa8-4597-a88c-851b0c8a335e")
+		)
+		(instances
+			(project "upper_lc_board"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -6618,230 +6439,6 @@
 		)
 	)
 	(symbol
-		(lib_id "53048-0310:53048-0310")
-		(at 41.91 165.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5074f487-791d-4fef-a40a-d53b9caa74db")
-		(property "Reference" "J2"
-			(at 37.338 157.226 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "HAL_SENS"
-			(at 37.338 159.766 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "53048-0310:53048-0310"
-			(at 41.91 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 41.91 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Molex"
-			(at 41.91 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            3 way through board PCB 90deg header | Molex Incorporated 53048-0310\n                        \n"
-			(at 41.91 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 41.91 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 41.91 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/53048-0310/Molex/view-part/?ref=snap"
-			(at 41.91 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "53048-0310"
-			(at 41.91 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 41.91 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/53048-0310/Molex/view-part/?ref=eda"
-			(at 41.91 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "cc1bc8d7-88a1-41d7-80b5-8eb6620bff72")
-		)
-		(pin "1"
-			(uuid "0db77ba0-5042-4cbb-b2dd-6cc5d13de15e")
-		)
-		(pin "2"
-			(uuid "f27b7c97-356c-4e1c-81c1-04cc6a450821")
-		)
-		(instances
-			(project ""
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 41.91 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "520ecee8-be93-46be-ae12-ee6f2860f87f")
-		(property "Reference" "#PWR?"
-			(at 41.91 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 41.91 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 41.91 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hall effect sensor."
-			(at 41.91 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "455d58ca-17ae-4059-8d38-c822693a57ab")
-		)
-		(instances
-			(project "sensor_module"
-				(path "/000b68e4-ef06-4c20-b636-7369874d2a55"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "sensor_module"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 199.39 80.01 180)
 		(unit 1)
@@ -6968,72 +6565,6 @@
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 58.42 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5629870a-b1a7-4527-9812-2ed6aad7ba63")
-		(property "Reference" "#PWR055"
-			(at 58.42 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 58.42 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 58.42 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hall effect sensor."
-			(at 58.42 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53e6866c-6d4f-45c6-be9a-82ecc35b5241")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
-					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -7301,76 +6832,6 @@
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 58.42 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "664f9e1a-66ff-4787-a6e8-6bc5361aec01")
-		(property "Reference" "R17"
-			(at 60.96 165.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 60.96 167.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 56.642 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 58.42 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d5de68b9-df48-46c9-827f-15640ade0142")
-		)
-		(pin "2"
-			(uuid "887dd702-ece7-4e61-805d-6a39295f6ddf")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
-					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -7856,6 +7317,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 130.81 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dece942-24c8-43e9-9b03-311835d90546")
+		(property "Reference" "#PWR054"
+			(at 124.46 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
+			(at 130.81 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hall effect sensor."
+			(at 130.81 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8a0af63-4d8e-4a24-a1d0-4b249d5db9f5")
+		)
+		(instances
+			(project "upper_lc_board"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 193.04 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7982,73 +7510,6 @@
 			(project ""
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 134.62 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "80a864b4-a961-4d5b-86a9-9a0763c60713")
-		(property "Reference" "R39"
-			(at 134.62 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 134.62 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 134.62 93.218 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 134.62 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9271cfc9-cd74-42ec-a63c-b920dd2c652e")
-		)
-		(pin "1"
-			(uuid "d71914e2-b66e-450e-9cb6-a58fdaa2617f")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
-					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -8189,7 +7650,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 67.31 180)
+		(at 55.88 109.22 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8197,7 +7658,7 @@
 		(dnp no)
 		(uuid "8f74ea40-f118-4071-a138-2494025303b6")
 		(property "Reference" "R18"
-			(at 51.054 66.04 0)
+			(at 52.324 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8205,7 +7666,7 @@
 			)
 		)
 		(property "Value" "165"
-			(at 51.054 68.326 0)
+			(at 52.324 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8213,7 +7674,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 56.388 67.31 90)
+			(at 57.658 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8222,7 +7683,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 67.31 0)
+			(at 55.88 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8231,7 +7692,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 54.61 67.31 0)
+			(at 55.88 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8324,17 +7785,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 77.47 151.13 90)
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 38.1 153.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96abb312-6a13-4d25-a140-de44768ddf0b")
-		(property "Reference" "#PWR057"
-			(at 81.28 151.13 0)
+		(uuid "95035ed3-2191-4e74-93de-e3232fda253c")
+		(property "Reference" "J2"
+			(at 39.116 143.764 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HALL"
+			(at 39.37 145.542 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "53047-0460:MOLEX_53047-0460"
+			(at 38.1 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8342,17 +7818,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 73.66 151.1299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 151.13 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/molex/0530480410/242866"
+			(at 38.1 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8360,17 +7827,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 77.47 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 77.47 151.13 0)
+		(property "Description" "HALL Sensor 4-pin Connector"
+			(at 38.1 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8379,12 +7837,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "f9cc853b-c75d-4673-bfaf-11c7ec170488")
+			(uuid "3ad2ee56-bf12-42d5-bc96-9aa6f8f44172")
+		)
+		(pin "2"
+			(uuid "61c655fe-dade-4060-b97e-465d91e7f7a0")
+		)
+		(pin "4"
+			(uuid "effc2b6e-2ec7-4d8e-b5a9-85cef264345e")
+		)
+		(pin "3"
+			(uuid "ee67afc4-9210-4335-b37e-424e8fe1edcb")
 		)
 		(instances
-			(project "upper_lc_board"
+			(project ""
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
-					(reference "#PWR057")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8530,72 +7997,6 @@
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 39.37 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9cfc88c2-99b9-425d-ac7c-c7e3120dcfb8")
-		(property "Reference" "#PWR052"
-			(at 39.37 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 39.37 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 39.37 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hall effect sensor."
-			(at 39.37 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f90661d-da3e-43dd-aef4-850fae07e5db")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
-					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -8802,149 +8203,6 @@
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 83.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a11cc221-4a00-41fd-9d06-aae45c062500")
-		(property "Reference" "#PWR059"
-			(at 124.46 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 127 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 130.81 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hall effect sensor."
-			(at 130.81 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c57cf6f6-0788-43e8-b0be-9410fe575a4a")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TLV9001IDCK")
-		(at 77.47 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a4733a45-a898-4872-8985-7572ef48d889")
-		(property "Reference" "U9"
-			(at 82.296 153.924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OA-TLV9001IDCK"
-			(at 88.646 156.6866 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 82.55 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9001.pdf"
-			(at 77.47 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low-power, Rail-to-Rail, 1MHz Operational Amplifier, SOT-353"
-			(at 77.47 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "9c4a899d-2245-4c8a-b469-6f36368df516")
-		)
-		(pin "1"
-			(uuid "a6386c56-96dc-4674-9e12-fcb9b990c83f")
-		)
-		(pin "3"
-			(uuid "513536c8-991c-4cbf-bf4e-7d07913495b2")
-		)
-		(pin "2"
-			(uuid "bfd137ae-0eba-42d7-9e00-dd15c243f209")
-		)
-		(pin "4"
-			(uuid "98e1c402-df29-4140-a297-571be6708778")
-		)
-		(instances
-			(project ""
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
-					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -9424,73 +8682,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 87.63 143.51 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b747b389-8662-4bbf-a238-114ac40213df")
-		(property "Reference" "#PWR063"
-			(at 93.98 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 91.44 143.5099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 87.63 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hall effect sensor."
-			(at 87.63 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "909a058d-5b07-48d1-b9a2-097bb3e27254")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 233.68 66.04 0)
 		(unit 1)
@@ -9843,6 +9034,75 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 57.15 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb96a5b8-52fb-435b-9b14-3afb7767ad7d")
+		(property "Reference" "R11"
+			(at 59.182 151.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 59.182 153.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 55.372 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 57.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "75eb212a-fe2e-403c-8726-98eba68dcb24")
+		)
+		(pin "1"
+			(uuid "3ed8bdcc-51ec-4a2b-9e9a-d7f100c6ec98")
+		)
+		(instances
+			(project "upper_lc_board"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 134.62 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10044,73 +9304,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 134.62 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e610e502-0851-4405-a86d-2794ae582e28")
-		(property "Reference" "R38"
-			(at 134.62 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 134.62 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 134.62 85.598 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 134.62 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e12acdd5-a538-46f1-be6e-f4e53a15ce2d")
-		)
-		(pin "1"
-			(uuid "b1396873-8116-4939-b00d-773b097907c0")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
-					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 195.58 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10247,7 +9440,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 53.34 110.49 180)
+		(at 55.88 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10255,7 +9448,7 @@
 		(dnp no)
 		(uuid "eb4e7c50-76b1-45b9-b908-a6ae1ce2d116")
 		(property "Reference" "R19"
-			(at 48.768 108.712 0)
+			(at 51.308 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10263,7 +9456,7 @@
 			)
 		)
 		(property "Value" "165"
-			(at 48.768 110.998 0)
+			(at 51.308 67.818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10271,7 +9464,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 55.118 110.49 90)
+			(at 57.658 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10280,7 +9473,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 110.49 0)
+			(at 55.88 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10289,7 +9482,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 53.34 110.49 0)
+			(at 55.88 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10313,161 +9506,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 83.82 143.51 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb764f01-f27f-42b5-ac2e-25985b79649a")
-		(property "Reference" "C16"
-			(at 86.36 147.066 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 87.122 149.098 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 87.63 142.5448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 83.82 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2375c02f-ab2b-4f3d-961d-4cc3d020a0f8")
-		)
-		(pin "1"
-			(uuid "25fa01a2-c606-4614-b02a-93fa4b9939b8")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 41.91 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "efeea46e-fc8e-4eab-8848-e1f495f3ddb7")
-		(property "Reference" "C?"
-			(at 42.926 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF_12V"
-			(at 42.926 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 42.8752 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 41.91 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c8a862bb-a7f6-48ab-906b-3685cc2a09ee")
-		)
-		(pin "1"
-			(uuid "ec0cceca-4aaf-42ac-ac3d-d9a3767237bd")
-		)
-		(instances
-			(project ""
-				(path "/000b68e4-ef06-4c20-b636-7369874d2a55"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 54.61 63.5 180)
+		(at 55.88 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f0a8cbf0-5f77-4ce8-ae3a-271d2ff6ad1c")
 		(property "Reference" "#PWR02"
-			(at 54.61 57.15 0)
+			(at 55.88 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10476,7 +9524,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 58.42 0)
+			(at 55.88 101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10484,7 +9532,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 63.5 0)
+			(at 55.88 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10493,7 +9541,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 54.61 63.5 0)
+			(at 55.88 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10502,7 +9550,7 @@
 			)
 		)
 		(property "Description" "Hall effect sensor."
-			(at 54.61 63.5 0)
+			(at 55.88 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10517,6 +9565,72 @@
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0c0a4c9-f886-4989-8ca0-3df1a903c95b")
+		(property "Reference" "#PWR052"
+			(at 35.56 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
+			(at 35.56 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hall effect sensor."
+			(at 35.56 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e4b4791-5f6c-488f-9062-42041bf16a13")
+		)
+		(instances
+			(project "upper_lc_board"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -10649,141 +9763,6 @@
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
 					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 140.97 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f40b8cf4-2681-43fb-8a3f-065410c37fb3")
-		(property "Reference" "C24"
-			(at 140.97 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 nF"
-			(at 142.24 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 141.9352 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 140.97 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "203fb8d7-0845-4508-91bb-cbcd5a14d72c")
-		)
-		(pin "1"
-			(uuid "651d51e2-3749-41d6-a481-90b16980e8e0")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 77.47 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4cd12b8-7799-4569-885c-a9a1166bb3de")
-		(property "Reference" "#PWR058"
-			(at 77.47 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 77.47 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 77.47 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hall effect sensor."
-			(at 77.47 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f4a17bbd-db81-46f4-aa32-d0b609cd8d02")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20"
-					(reference "#PWR058")
 					(unit 1)
 				)
 			)
