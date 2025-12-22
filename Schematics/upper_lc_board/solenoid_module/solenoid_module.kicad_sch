@@ -3021,16 +3021,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 125.73) (xy 91.44 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69ea831f-90cf-4809-b513-319f40891841")
-	)
-	(wire
-		(pts
 			(xy 111.76 44.45) (xy 111.76 45.72)
 		)
 		(stroke
@@ -3306,9 +3296,9 @@
 			)
 		)
 	)
-	(global_label "GPIO_11"
+	(global_label "PT1_EN"
 		(shape input)
-		(at 161.29 99.06 180)
+		(at 157.48 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3316,9 +3306,9 @@
 			)
 			(justify right)
 		)
-		(uuid "8af79850-472a-4d2a-969b-c4e0d8b02f54")
+		(uuid "722f67f0-311c-4576-81b8-ac41e0139ee4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.4429 99.06 0)
+			(at 147.6006 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3350,6 +3340,28 @@
 			)
 		)
 	)
+	(global_label "PT2_EN"
+		(shape input)
+		(at 161.29 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9388440-4093-46bc-865e-291a5baebcd2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.4106 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SOL1_RET"
 		(shape input)
 		(at 113.03 87.63 270)
@@ -3363,28 +3375,6 @@
 		(uuid "bdb30bce-cf11-4859-9028-5dfde6a9689a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 113.03 99.747 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_12"
-		(shape input)
-		(at 157.48 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "db79dfe4-6c9c-490e-9b37-bf09aa1bf8eb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.6329 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,7 +3430,7 @@
 	)
 	(global_label "SOL2_RET"
 		(shape input)
-		(at 90.17 125.73 180)
+		(at 91.44 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3450,7 +3440,7 @@
 		)
 		(uuid "f209c615-d0ee-4fe2-842b-e48aad1f0b7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.053 125.73 0)
+			(at 79.323 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3814,7 +3804,7 @@
 		(dnp no)
 		(uuid "079a69a8-6f40-4174-8edd-810935e7386b")
 		(property "Reference" "R?"
-			(at 161.036 61.214 90)
+			(at 161.29 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3822,7 +3812,7 @@
 			)
 		)
 		(property "Value" "340"
-			(at 161.036 58.674 90)
+			(at 161.29 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4098,7 +4088,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MD_TP"
+		(property "Value" "MD"
 			(at 171.45 89.916 0)
 			(effects
 				(font
@@ -4372,7 +4362,7 @@
 		(dnp no)
 		(uuid "48b45f6c-b6db-401d-a964-149a0d2b5d70")
 		(property "Reference" "R?"
-			(at 102.616 136.144 90)
+			(at 102.87 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4380,7 +4370,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 102.616 138.43 90)
+			(at 102.87 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4726,7 +4716,7 @@
 		(dnp no)
 		(uuid "851550c7-c6eb-4d1e-8b1e-036af399ef71")
 		(property "Reference" "R?"
-			(at 172.974 106.172 0)
+			(at 172.72 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4734,7 +4724,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 173.736 102.616 90)
+			(at 176.53 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5207,7 +5197,7 @@
 		(dnp no)
 		(uuid "b3c31d2e-3a36-48c8-8f5b-7a648fa67a49")
 		(property "Reference" "R?"
-			(at 164.846 104.394 90)
+			(at 165.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5215,7 +5205,7 @@
 			)
 		)
 		(property "Value" "180"
-			(at 164.846 101.854 90)
+			(at 165.1 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5345,7 +5335,7 @@
 		(dnp no)
 		(uuid "cee78ca4-3e09-4c3a-9d9b-ef2096f0480d")
 		(property "Reference" "R?"
-			(at 102.87 121.158 90)
+			(at 102.87 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5353,7 +5343,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 102.87 123.19 90)
+			(at 102.87 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
