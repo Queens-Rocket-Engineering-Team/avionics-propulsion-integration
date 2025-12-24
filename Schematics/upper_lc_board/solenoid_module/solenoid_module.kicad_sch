@@ -3296,7 +3296,7 @@
 			)
 		)
 	)
-	(global_label "PT1_EN"
+	(global_label "VALVE1_CTRL"
 		(shape input)
 		(at 157.48 55.88 180)
 		(fields_autoplaced yes)
@@ -3308,7 +3308,7 @@
 		)
 		(uuid "722f67f0-311c-4576-81b8-ac41e0139ee4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.6006 55.88 0)
+			(at 142.3391 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3340,7 +3340,7 @@
 			)
 		)
 	)
-	(global_label "PT2_EN"
+	(global_label "VALVE2_CTRL"
 		(shape input)
 		(at 161.29 99.06 180)
 		(fields_autoplaced yes)
@@ -3352,7 +3352,7 @@
 		)
 		(uuid "b9388440-4093-46bc-865e-291a5baebcd2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.4106 99.06 0)
+			(at 146.1491 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
