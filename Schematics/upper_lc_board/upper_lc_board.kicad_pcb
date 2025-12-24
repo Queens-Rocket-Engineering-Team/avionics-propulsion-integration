@@ -2456,7 +2456,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C17"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b9d9c29b-523c-442a-8266-7bb738b31935")
@@ -2468,7 +2468,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "30cb090b-f7a3-40f4-9ffb-11fe4e1ffd64")
 			(effects
@@ -2623,7 +2623,7 @@
 			(uuid "d2245351-28fa-4d4c-8413-f4937c5d7ceb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "cb0fab54-7ed3-4cab-970a-77ebe57333cc")
 			(effects
@@ -2670,7 +2670,7 @@
 		(descr "Resistor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R21"
-			(at 3.43 -1.14 0)
+			(at 3.4 -0.05 0)
 			(layer "F.SilkS")
 			(uuid "618ef951-f4ac-40f3-9a5c-e7210e43a9a2")
 			(effects
@@ -9164,7 +9164,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "35465306-e67d-437f-b574-11c3ad9d02b9")
 			(effects
@@ -9319,7 +9319,7 @@
 			(uuid "ec41ae15-8435-488f-b90d-bbdaa7187f68")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "b7c8f9f0-c6a4-486b-9e80-832c24d89d0e")
 			(effects
@@ -13074,7 +13074,7 @@
 			)
 		)
 		(property "Value" "USB_LED"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "0001fb17-b8f9-4a14-acec-f89472abd8e5")
 			(effects
@@ -13249,7 +13249,7 @@
 			(uuid "58e043ac-ddf6-437a-a779-fdad4a380277")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f6d7e0b1-159a-48ab-87b2-8321a84d643a")
 			(effects
@@ -16623,7 +16623,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "8f616f3c-13aa-420d-8e6d-4e897b62b70d")
-		(at 154.52 102.8)
+		(at 155.13 107.14)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP1"
@@ -22296,6 +22296,7 @@
 		(property "Reference" "D7"
 			(at 2.73 0 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c16b698f-4c6e-448a-93d4-e08c531105eb")
 			(effects
 				(font
@@ -24609,6 +24610,7 @@
 		(property "Reference" "D9"
 			(at 2.72 0.06 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "91250d79-fc14-48bf-9ee5-7ec303420032")
 			(effects
 				(font
@@ -27957,7 +27959,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "6c259994-dc51-46e7-9e74-d17e04477931")
 			(effects
@@ -28112,7 +28114,7 @@
 			(uuid "cde37bb2-185f-4cb1-978a-ed1f2da452ad")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "b5ebeb95-728a-4f33-b135-679dce34e0e8")
 			(effects
@@ -33536,6 +33538,18 @@
 			)
 		)
 	)
+	(gr_text "SOL2"
+		(at 151.39 102.04 0)
+		(layer "F.SilkS")
+		(uuid "32a6787a-aeea-4482-8c59-127e4c1008c3")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "U1"
 		(at 129.77 107.25 0)
 		(layer "F.SilkS" knockout)
@@ -33670,6 +33684,18 @@
 			)
 		)
 	)
+	(gr_text "SOL1\n"
+		(at 151.38 104.17 0)
+		(layer "F.SilkS")
+		(uuid "5f026ae1-68f2-440f-837c-004fbdf08700")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "WIFI\n"
 		(at 106.33 108.97 0)
 		(layer "F.SilkS")
@@ -33754,7 +33780,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 154.55 101.19 0)
+		(at 155.16 105.53 0)
 		(layer "F.SilkS")
 		(uuid "8f46ebd9-6d31-452b-9d02-9d347124c7e2")
 		(effects
@@ -35371,8 +35397,8 @@
 		(uuid "e612f1a0-a835-45f8-ba99-080bb28d6102")
 	)
 	(segment
-		(start 154.52 102.8)
-		(end 154.52 104.46)
+		(start 155.13 107.14)
+		(end 155.13 108.8)
 		(width 0.299999)
 		(layer "F.Cu")
 		(net 5)
@@ -35555,7 +35581,7 @@
 		(uuid "00afb2c1-be0f-47b8-9fc9-183ee124d08b")
 	)
 	(via
-		(at 154.52 104.46)
+		(at 155.13 108.8)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
