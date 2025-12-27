@@ -8,7 +8,8 @@
 		(title "ULC Board Solenoid Driver Circuitry")
 		(rev "A")
 		(company "Queen's Rocket Engineering Team")
-		(comment 1 "Jeevan Sanchez")
+		(comment 1 "Tristan Alderson")
+		(comment 2 "Jeevan Sanchez")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -2720,7 +2721,7 @@
 			)
 			(project ""
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/f003a3ad-0ca0-4253-bb6a-1aee93b0e37f"
-					(reference "#PWR86")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -3025,7 +3026,7 @@
 			)
 			(project ""
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/f003a3ad-0ca0-4253-bb6a-1aee93b0e37f"
-					(reference "#PWR88")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -3164,7 +3165,7 @@
 			)
 			(project ""
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/f003a3ad-0ca0-4253-bb6a-1aee93b0e37f"
-					(reference "#PWR80")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -3402,7 +3403,7 @@
 			)
 			(project ""
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/f003a3ad-0ca0-4253-bb6a-1aee93b0e37f"
-					(reference "#PWR87")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -3473,7 +3474,7 @@
 			)
 			(project ""
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/f003a3ad-0ca0-4253-bb6a-1aee93b0e37f"
-					(reference "#PWR84")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -3546,7 +3547,7 @@
 			)
 			(project ""
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/f003a3ad-0ca0-4253-bb6a-1aee93b0e37f"
-					(reference "#PWR81")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -3701,7 +3702,7 @@
 			)
 			(project ""
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/f003a3ad-0ca0-4253-bb6a-1aee93b0e37f"
-					(reference "#PWR79")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -3838,7 +3839,7 @@
 			)
 			(project ""
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/f003a3ad-0ca0-4253-bb6a-1aee93b0e37f"
-					(reference "#PWR83")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -4487,7 +4488,7 @@
 			)
 			(project ""
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/f003a3ad-0ca0-4253-bb6a-1aee93b0e37f"
-					(reference "#PWR85")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -4644,7 +4645,7 @@
 			)
 			(project ""
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/f003a3ad-0ca0-4253-bb6a-1aee93b0e37f"
-					(reference "#PWR82")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
