@@ -4812,7 +4812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "C21190"
+		(property "LCSC" "C21190"
 			(at 134.62 80.01 90)
 			(effects
 				(font
