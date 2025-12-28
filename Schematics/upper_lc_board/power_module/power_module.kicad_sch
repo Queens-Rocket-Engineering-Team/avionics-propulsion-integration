@@ -5428,7 +5428,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" "C6186"
+		(property "LCSC" "C6186"
 			(at 153.67 133.35 0)
 			(effects
 				(font
@@ -6622,7 +6622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "2297"
+		(property "LCSC" "2297"
 			(at 53.34 138.43 0)
 			(effects
 				(font

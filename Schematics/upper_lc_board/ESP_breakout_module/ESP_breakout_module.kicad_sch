@@ -6167,7 +6167,7 @@
 		(dnp no)
 		(uuid "601c0322-2c78-4058-93ed-75f0b83c9de5")
 		(property "Reference" "U1"
-			(at 64.4241 49.53 0)
+			(at 64.77 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6175,7 +6175,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-S3-WROOM-1"
+		(property "Value" "ESP32-S3-WROOM-1-N16"
 			(at 39.37 45.72 0)
 			(effects
 				(font
@@ -6203,6 +6203,15 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"
+			(at 62.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2913199"
 			(at 62.23 74.93 0)
 			(effects
 				(font
@@ -6704,7 +6713,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" "C25804"
+		(property "LCSC" "C25804"
 			(at 31.75 48.26 0)
 			(effects
 				(font
