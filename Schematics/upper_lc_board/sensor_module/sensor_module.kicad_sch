@@ -2953,6 +2953,15 @@
 		(uuid "368c49dc-0c4f-4129-b3c4-e3fd8c3ac8bb")
 	)
 	(bus_entry
+		(at 201.93 92.71)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c0d29f-ee8e-4711-9e4d-a05078e3764e")
+	)
+	(bus_entry
 		(at 93.98 19.05)
 		(size 2.54 2.54)
 		(stroke
@@ -2960,6 +2969,24 @@
 			(type default)
 		)
 		(uuid "62344325-3eed-4532-8e1b-ab6172ba82e2")
+	)
+	(bus_entry
+		(at 266.7 82.55)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79a119dd-37ff-4c0e-aca9-92240e7be7b9")
+	)
+	(bus_entry
+		(at 232.41 88.9)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8c245e6-72d6-4887-90a6-e95e7e924c87")
 	)
 	(bus_entry
 		(at 186.69 -91.44)
@@ -8490,7 +8517,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 199.39 79.0448 0)
 			(effects
 				(font
@@ -8517,7 +8544,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC" "C5378"
 			(at 195.58 80.01 90)
 			(effects
 				(font

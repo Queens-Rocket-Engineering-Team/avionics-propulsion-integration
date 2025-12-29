@@ -6622,7 +6622,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "2297"
+		(property "LCSC" "C2297"
 			(at 53.34 138.43 0)
 			(effects
 				(font
