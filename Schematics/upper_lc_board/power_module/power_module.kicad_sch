@@ -3859,7 +3859,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C2869734"
+		(property "LCSC" "C2869734"
 			(at 167.64 82.55 0)
 			(effects
 				(font
@@ -5948,7 +5948,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C2869734"
+		(property "LCSC" "C2869734"
 			(at 167.64 59.69 0)
 			(effects
 				(font

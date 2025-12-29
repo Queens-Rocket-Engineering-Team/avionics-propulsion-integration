@@ -4745,6 +4745,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C123803"
+			(at 219.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ffb4531-36f6-4e8c-bf66-4bf19e9764c9")
 		)
@@ -6424,6 +6433,15 @@
 			)
 		)
 		(property "Description" "SMF Uni-directional TVS diode"
+			(at 199.39 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C123803"
 			(at 199.39 134.62 0)
 			(effects
 				(font
@@ -8216,6 +8234,15 @@
 			)
 		)
 		(property "Description" "SMF Uni-directional TVS diode"
+			(at 209.55 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C123803"
 			(at 209.55 124.46 0)
 			(effects
 				(font
