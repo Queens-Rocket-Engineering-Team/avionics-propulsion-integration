@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP SDM4A40EP3-7B
-D Schottky Diodes & Rectifiers Diode 40 V 4A Surface Mount X3-TSN1608-210K
-K
-F https://www.diodes.com//assets/Datasheets/SDM4A40EP3.pdf
-$ENDCMP
-#
-#End Doc Library
