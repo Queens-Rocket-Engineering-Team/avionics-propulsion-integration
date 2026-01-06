@@ -622,6 +622,26 @@
     [
       "f003a3ad-0ca0-4253-bb6a-1aee93b0e37f",
       "Solenoid Driver Circuitry"
+    ],
+    [
+      "65115d6c-240a-4886-8e54-c37424bab0b6",
+      "Valve Control 2"
+    ],
+    [
+      "1bd8ce37-8ddd-4ff8-9ae8-5224bdd9bb9e",
+      "Valve Control 1"
+    ],
+    [
+      "053ff26d-da11-4577-8dd0-32aaebff2a7b",
+      "PT-1"
+    ],
+    [
+      "3fcdaac5-2869-40f8-b925-cf310375456d",
+      "PT-2"
+    ],
+    [
+      "911e7585-9a9d-4803-9ce9-9fc1f19be4ae",
+      "TC Conditoning + CJC"
     ]
   ],
   "text_variables": {}
