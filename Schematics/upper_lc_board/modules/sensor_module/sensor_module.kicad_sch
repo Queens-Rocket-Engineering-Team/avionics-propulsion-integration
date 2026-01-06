@@ -5740,9 +5740,6 @@
 			)
 		)
 	)
-<<<<<<< HEAD:Schematics/upper_lc_board/sensor_module/sensor_module.kicad_sch
-)
-=======
 	(sheet
 		(at 46.99 46.99)
 		(size 39.624 16.002)
@@ -5948,4 +5945,3 @@
 		)
 	)
 )
->>>>>>> 6cc1d888e7e16f9cef5027061503138ae4c7acd9:Schematics/upper_lc_board/modules/sensor_module/sensor_module.kicad_sch
