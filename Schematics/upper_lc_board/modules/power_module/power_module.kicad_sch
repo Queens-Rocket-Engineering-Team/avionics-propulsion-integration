@@ -249,6 +249,152 @@
 				)
 			)
 		)
+		(symbol "Device:FerriteBead"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:Fuse"
 			(pin_numbers hide)
 			(pin_names
@@ -1305,7 +1451,7 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:AMS1117-3.3"
+		(symbol "Regulator_Linear:LD1117S33TR_SOT223"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1317,7 +1463,7 @@
 					)
 				)
 			)
-			(property "Value" "AMS1117-3.3"
+			(property "Value" "LD1117S33TR_SOT223"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -1335,7 +1481,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+			(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf"
 				(at 2.54 -6.35 0)
 				(effects
 					(font
@@ -1344,7 +1490,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(property "Description" "800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1353,7 +1499,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "linear regulator ldo fixed positive"
+			(property "ki_keywords" "REGULATOR LDO 3.3V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1371,7 +1517,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AMS1117-3.3_0_1"
+			(symbol "LD1117S33TR_SOT223_0_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end 5.08 1.905)
@@ -1384,7 +1530,7 @@
 					)
 				)
 			)
-			(symbol "AMS1117-3.3_1_1"
+			(symbol "LD1117S33TR_SOT223_1_1"
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
@@ -2822,12 +2968,6 @@
 		(uuid "63a99590-b309-4150-ade6-781169921a87")
 	)
 	(junction
-		(at 83.82 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69fa2e14-c459-438e-8a8c-c5378ad7404d")
-	)
-	(junction
 		(at 88.9 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2844,12 +2984,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83c5c138-66ca-42a0-a732-e2407185cabd")
-	)
-	(junction
-		(at 83.82 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86189165-5fa1-46c5-ac60-0f13437ffd0e")
 	)
 	(junction
 		(at 76.2 132.08)
@@ -2870,10 +3004,22 @@
 		(uuid "b48b4e4a-27af-4a77-b1c3-73f0e5cccf2b")
 	)
 	(junction
+		(at 82.55 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba4cb825-ada1-438a-830c-bc11837d7810")
+	)
+	(junction
 		(at 116.84 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c349690a-3347-4706-845b-ef309e74a3f9")
+	)
+	(junction
+		(at 82.55 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cce7e377-c6aa-4672-aba0-bb1c63a1733d")
 	)
 	(junction
 		(at 106.68 149.86)
@@ -2902,6 +3048,16 @@
 	(no_connect
 		(at 82.55 49.53)
 		(uuid "f31e53aa-4374-47eb-8f07-225b3d94b64e")
+	)
+	(wire
+		(pts
+			(xy 82.55 149.86) (xy 83.82 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a0b4def-5406-4bc3-8390-a7adc16651e0")
 	)
 	(wire
 		(pts
@@ -2987,16 +3143,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 149.86) (xy 92.71 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22403daa-8e19-4e4b-89ee-6e7f0f3012c6")
-	)
-	(wire
-		(pts
 			(xy 92.71 161.29) (xy 92.71 165.1)
 		)
 		(stroke
@@ -3079,7 +3225,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 153.67) (xy 83.82 149.86)
+			(xy 82.55 153.67) (xy 82.55 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3116,6 +3262,16 @@
 			(type default)
 		)
 		(uuid "5eabd623-7254-43c1-ac60-94d296a00afc")
+	)
+	(wire
+		(pts
+			(xy 82.55 165.1) (xy 88.9 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "647e1070-4e7c-4e3e-af22-d8e4dc554a2b")
 	)
 	(wire
 		(pts
@@ -3169,16 +3325,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 165.1) (xy 88.9 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72b4e86a-0166-4b99-a2dd-8d4460f9f6b4")
-	)
-	(wire
-		(pts
 			(xy 92.71 165.1) (xy 106.68 165.1)
 		)
 		(stroke
@@ -3189,7 +3335,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 149.86) (xy 83.82 149.86)
+			(xy 72.39 149.86) (xy 82.55 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3246,6 +3392,16 @@
 			(type default)
 		)
 		(uuid "9ba15d7b-e577-4de7-ac1b-834be239a50d")
+	)
+	(wire
+		(pts
+			(xy 91.44 149.86) (xy 92.71 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d2a23b9-5b42-40a6-893a-3cf3117f131b")
 	)
 	(wire
 		(pts
@@ -3482,6 +3638,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 158.75) (xy 106.68 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e877a73f-4247-4b38-b4c0-edfdb1f4d4d0")
+	)
+	(wire
+		(pts
 			(xy 182.88 138.43) (xy 191.77 138.43)
 		)
 		(stroke
@@ -3492,7 +3658,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 165.1) (xy 83.82 165.1)
+			(xy 72.39 165.1) (xy 82.55 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3512,7 +3678,17 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 161.29) (xy 83.82 165.1)
+			(xy 106.68 151.13) (xy 106.68 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f06e61a2-1c4b-4e62-a800-539e03996d74")
+	)
+	(wire
+		(pts
+			(xy 82.55 161.29) (xy 82.55 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3637,6 +3813,16 @@
 			)
 		)
 		(uuid "b3eed66a-03a7-4bf2-9f07-9113a2461ab2")
+	)
+	(text "reccomended LDO\n"
+		(exclude_from_sim no)
+		(at 184.15 148.082 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c669be14-8b4f-47f7-a88b-6feeff35f88f")
 	)
 	(text "Power Input (Stack Backplane)"
 		(exclude_from_sim no)
@@ -4074,7 +4260,7 @@
 		(dnp no)
 		(uuid "1211fd93-3bad-4a02-b355-bf499c21b1e3")
 		(property "Reference" "C9"
-			(at 95.25 160.02 0)
+			(at 96.266 160.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4082,8 +4268,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF_35V"
-			(at 92.71 154.94 0)
+		(property "Value" "100uF_50V"
+			(at 93.726 155.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,6 +4323,74 @@
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/4448a9b0-3cba-4e30-89c0-980036e20f76"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 87.63 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "163781d9-01b1-4efc-9a59-96a9f07a925f")
+		(property "Reference" "FB1"
+			(at 87.5792 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 87.5792 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BLM31KN121SN1L:BEADC3216X180N"
+			(at 87.63 151.638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/FERRITEB-A700000010386127.pdf"
+			(at 87.63 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "120 Ohms @ 100 MHz 1 Power Line Ferrite Bead 1206 (3216 Metric) 6A 9mOhm"
+			(at 87.63 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "420fb418-932c-4664-aa56-1a0952d056f6")
+		)
+		(pin "1"
+			(uuid "0a78a8b2-ba79-48b3-b056-f5b0d113baa3")
+		)
+		(instances
+			(project ""
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/4448a9b0-3cba-4e30-89c0-980036e20f76"
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -4926,6 +5180,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:LD1117S33TR_SOT223")
+		(at 182.88 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4efb43a3-9be4-4be3-aa59-6fa62961c79e")
+		(property "Reference" "U3"
+			(at 182.88 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LD1117S33TR_SOT223"
+			(at 182.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 182.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/LDO-ld1117.pdf"
+			(at 185.42 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223"
+			(at 182.88 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "76d368cb-d7ef-4b13-9eea-e7e8b6400f37")
+		)
+		(pin "2"
+			(uuid "6aa0d384-a079-4a3a-9e18-c1118285808d")
+		)
+		(pin "1"
+			(uuid "b9aa28e1-de6c-45c2-a62b-5bbb60b98743")
+		)
+		(instances
+			(project ""
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/4448a9b0-3cba-4e30-89c0-980036e20f76"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 200.66 125.73 180)
 		(unit 1)
@@ -5095,7 +5420,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 106.68 153.67 180)
+		(at 106.68 154.94 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5103,7 +5428,7 @@
 		(dnp no)
 		(uuid "5a42c5fc-173f-4e10-8432-ade0a5287757")
 		(property "Reference" "R9"
-			(at 109.22 153.67 0)
+			(at 109.22 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5111,7 +5436,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 106.68 153.67 90)
+			(at 106.68 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5119,7 +5444,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 108.458 153.67 90)
+			(at 108.458 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5128,7 +5453,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 153.67 0)
+			(at 106.68 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5137,7 +5462,7 @@
 			)
 		)
 		(property "Description" "Current Limiting Resistor"
-			(at 106.68 153.67 0)
+			(at 106.68 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5146,7 +5471,7 @@
 			)
 		)
 		(property "Digikey" "311-4.70KFRCT-ND"
-			(at 106.68 153.67 90)
+			(at 106.68 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5479,86 +5804,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:AMS1117-3.3")
-		(at 182.88 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73370af6-1c83-42a8-96b0-f585e659dbd1")
-		(property "Reference" "U3"
-			(at 182.88 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AMS1117-3.3"
-			(at 182.88 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 182.88 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 185.42 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "LDO"
-			(at 182.88 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C6186"
-			(at 182.88 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad43673a-1f9f-4b6e-af42-51582e804fcb")
-		)
-		(pin "2"
-			(uuid "4c3d42ce-0b76-4a8f-99ee-73a81b68e283")
-		)
-		(pin "3"
-			(uuid "308e6e4e-d0fc-4bd1-89bb-a1038317967c")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/4448a9b0-3cba-4e30-89c0-980036e20f76"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+24V")
 		(at 110.49 82.55 270)
 		(unit 1)
@@ -5709,7 +5954,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 83.82 157.48 0)
+		(at 82.55 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5717,7 +5962,7 @@
 		(dnp no)
 		(uuid "7a015c3f-a688-4354-bb20-2c3994d46ee3")
 		(property "Reference" "C10"
-			(at 81.28 154.94 0)
+			(at 80.01 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5725,7 +5970,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 81.28 161.29 0)
+			(at 80.01 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5733,7 +5978,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 84.7852 161.29 0)
+			(at 83.5152 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5742,7 +5987,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 157.48 0)
+			(at 82.55 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5751,7 +5996,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 83.82 157.48 0)
+			(at 82.55 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5760,7 +6005,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 83.82 157.48 90)
+			(at 82.55 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
