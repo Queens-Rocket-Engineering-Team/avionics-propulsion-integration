@@ -2144,7 +2144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30417.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/BAV199DW-ds30417.pdf"
 			(at 172.72 97.79 0)
 			(effects
 				(font
@@ -2240,7 +2240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30417.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/BAV199DW-ds30417.pdf"
 			(at 148.59 97.79 0)
 			(effects
 				(font
@@ -2408,7 +2408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ohmite.com/assets/images/res-tx.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/Thermistor-tx.pdf"
 			(at 121.92 95.25 0)
 			(effects
 				(font

@@ -1064,7 +1064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/MOSFET-AO3400A.pdf"
 			(at 160.02 99.06 0)
 			(effects
 				(font
