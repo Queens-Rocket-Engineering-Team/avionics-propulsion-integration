@@ -30792,7 +30792,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "____________ V1.0\nQRET Dec 2025\n\nJeevan Sanchez\nTristan Alderson\n"
+	(gr_text "Pheonix V1.0\nQRET Dec 2025\n\nJeevan Sanchez\nTristan Alderson\n"
 		(at 129.78 76.69 0)
 		(layer "B.SilkS")
 		(uuid "e6051da2-05e9-425f-83b1-daa762d30815")
