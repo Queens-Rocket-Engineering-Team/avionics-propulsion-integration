@@ -3943,7 +3943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2flm66100"
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/ID-lm66100.pdf"
 			(at 193.04 74.93 0)
 			(effects
 				(font
@@ -6032,7 +6032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2flm66100"
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/ID-lm66100.pdf"
 			(at 193.04 52.07 0)
 			(effects
 				(font
@@ -6564,7 +6564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tvs3300.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/SURGE-PROT-tvs3300.pdf"
 			(at 69.85 157.48 0)
 			(effects
 				(font

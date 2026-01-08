@@ -1228,7 +1228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.instrumart.com/assets/Setra-209H-Datasheet.pdf?srsltid=AfmBOopu2crXxkUQG31K4d3R_HBIXk4e909zcQpueoXf2bMSBoYDKgm2"
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/CONN-530470460.pdf"
 			(at 113.03 97.79 0)
 			(effects
 				(font
@@ -1458,7 +1458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30417.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/BAV199DW-ds30417.pdf"
 			(at 140.97 87.63 0)
 			(effects
 				(font
