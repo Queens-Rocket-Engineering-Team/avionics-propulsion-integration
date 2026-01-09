@@ -1649,7 +1649,6 @@
 		)
 		(instances
 			(project "upper_lc_board"
-			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "R25")
 					(unit 1)
@@ -1938,7 +1937,6 @@
 		)
 		(instances
 			(project "upper_lc_board"
-			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "#PWR0112")
 					(unit 1)
@@ -2023,7 +2021,6 @@
 		)
 		(instances
 			(project "upper_lc_board"
-			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "R26")
 					(unit 1)
@@ -2106,7 +2103,6 @@
 		)
 		(instances
 			(project "upper_lc_board"
-			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "R29")
 					(unit 1)
@@ -2188,7 +2184,6 @@
 			(uuid "6291b4b8-a3c3-4d11-9e68-d9024e0fcac9")
 		)
 		(instances
-			(project "upper_lc_board"
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "R24")
@@ -2334,7 +2329,6 @@
 		)
 		(instances
 			(project "upper_lc_board"
-			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "#PWR0116")
 					(unit 1)
@@ -2418,7 +2412,6 @@
 			(uuid "dcb8e400-fd2d-48c3-b689-6b39a7aac0f4")
 		)
 		(instances
-			(project "upper_lc_board"
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "R27")
@@ -2565,7 +2558,6 @@
 		)
 		(instances
 			(project "upper_lc_board"
-			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "#PWR0121")
 					(unit 1)
@@ -2647,7 +2639,6 @@
 			(uuid "4bb37c2e-cc7d-4bc3-b823-ae61b7240308")
 		)
 		(instances
-			(project "upper_lc_board"
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "R40")
@@ -2745,7 +2736,6 @@
 		)
 		(instances
 			(project "upper_lc_board"
-			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "D18")
 					(unit 2)
@@ -2841,7 +2831,6 @@
 			(uuid "2c06bc88-05f5-47ec-b6d3-f4a25bd0a314")
 		)
 		(instances
-			(project "upper_lc_board"
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "D18")
@@ -3079,7 +3068,6 @@
 		)
 		(instances
 			(project "upper_lc_board"
-			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "TH1")
 					(unit 1)
@@ -3150,7 +3138,6 @@
 			(uuid "03b11f11-de0e-4e6c-89a5-c5ae3bd000bc")
 		)
 		(instances
-			(project "upper_lc_board"
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "#PWR0120")
@@ -3234,7 +3221,6 @@
 		)
 		(instances
 			(project "upper_lc_board"
-			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "R28")
 					(unit 1)
@@ -3307,7 +3293,6 @@
 			(uuid "8d92eea8-0234-4516-9c06-b9c7a68033b5")
 		)
 		(instances
-			(project "upper_lc_board"
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "C30")
@@ -3392,7 +3377,6 @@
 			(uuid "29abde8a-fb37-4ef8-90a9-96c6164448e1")
 		)
 		(instances
-			(project "upper_lc_board"
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "J7")
