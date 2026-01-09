@@ -1065,6 +1065,12 @@
 		(uuid "6f0aa34e-3dbc-4eca-a8a5-db032f9280f0")
 	)
 	(junction
+		(at 113.03 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3bcfc17-e6a0-4451-8b34-628f0a4e6428")
+	)
+	(junction
 		(at 113.03 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1082,7 +1088,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 109.22) (xy 115.57 109.22)
+			(xy 110.49 109.22) (xy 113.03 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1192,6 +1198,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 109.22) (xy 115.57 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "995137e6-7512-4d84-b395-e62fb4d33a47")
+	)
+	(wire
+		(pts
 			(xy 113.03 101.6) (xy 115.57 101.6)
 		)
 		(stroke
@@ -1233,6 +1249,30 @@
 			(justify left)
 		)
 		(uuid "2c8a5849-c8b7-4425-874d-91bb5678c179")
+	)
+	(hierarchical_label "IN"
+		(shape input)
+		(at 120.65 93.98 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb1a3e23-ecbf-4349-8a63-953ddc9c4555")
+	)
+	(hierarchical_label "CLAMPED"
+		(shape input)
+		(at 154.94 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c597a6a5-0925-4cdb-953f-063ccffbaf17")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1401,6 +1441,75 @@
 				)
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/3fcdaac5-2869-40f8-b925-cf310375456d"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d0a2a65-8d29-4cbc-8833-dfa2c4e4b4fd")
+		(property "Reference" "#PWR042"
+			(at 113.03 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
+			(at 113.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hall effect sensor."
+			(at 113.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa2400f4-5b00-486a-858c-5fdbbcad81a1")
+		)
+		(instances
+			(project "upper_lc_board"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/053ff26d-da11-4577-8dd0-32aaebff2a7b"
+					(reference "#PWR042")
+					(unit 1)
+				)
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/3fcdaac5-2869-40f8-b925-cf310375456d"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -2135,11 +2244,6 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "1")
 		)
 	)
 )
