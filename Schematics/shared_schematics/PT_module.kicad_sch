@@ -1035,7 +1035,6 @@
 	(hierarchical_label "IN"
 		(shape input)
 		(at 120.65 93.98 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1047,7 +1046,6 @@
 	(hierarchical_label "CLAMPED"
 		(shape input)
 		(at 154.94 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
