@@ -1940,7 +1940,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../VALVE_control/VALVE_control.kicad_sch"
+		(property "Sheetfile" "${KIPRJMOD}/../shared_schematics/VALVE_control.kicad_sch"
 			(at 173.99 80.5946 0)
 			(effects
 				(font
@@ -2008,7 +2008,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../VALVE_control/VALVE_control.kicad_sch"
+		(property "Sheetfile" "${KIPRJMOD}/../shared_schematics/VALVE_control.kicad_sch"
 			(at 172.72 122.5046 0)
 			(effects
 				(font

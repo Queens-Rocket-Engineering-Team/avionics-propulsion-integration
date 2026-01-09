@@ -843,7 +843,6 @@
 	(hierarchical_label "RETURN"
 		(shape input)
 		(at 160.02 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -855,7 +854,6 @@
 	(hierarchical_label "CONTROL"
 		(shape input)
 		(at 133.35 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -867,7 +865,6 @@
 	(hierarchical_label "TP"
 		(shape input)
 		(at 154.94 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

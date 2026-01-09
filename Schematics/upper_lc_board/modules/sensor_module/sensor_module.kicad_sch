@@ -2425,7 +2425,6 @@
 	)
 	(label "TC_N"
 		(at 147.32 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2436,7 +2435,6 @@
 	)
 	(label "TC_N_CLAMPED"
 		(at 147.32 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2447,7 +2445,6 @@
 	)
 	(label "PT2_CLAMPED"
 		(at 44.45 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2458,7 +2455,6 @@
 	)
 	(label "PT1_CLAMPED"
 		(at 130.81 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2469,7 +2465,6 @@
 	)
 	(label "TC_P_CLAMPED"
 		(at 147.32 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2480,7 +2475,6 @@
 	)
 	(label "TC_N_CLAMPED"
 		(at 130.81 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2491,7 +2485,6 @@
 	)
 	(label "PT1_CLAMPED"
 		(at 44.45 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2502,7 +2495,6 @@
 	)
 	(label "PT2"
 		(at 44.45 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2515,7 +2507,6 @@
 	)
 	(label "TC_P_CLAMPED"
 		(at 130.81 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2526,7 +2517,6 @@
 	)
 	(label "PT2_CLAMPED"
 		(at 130.81 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2537,7 +2527,6 @@
 	)
 	(label "PT1"
 		(at 44.45 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2550,7 +2539,6 @@
 	)
 	(label "TC_P"
 		(at 147.32 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5761,7 +5749,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../PT_module/PT_module.kicad_sch"
+		(property "Sheetfile" "${KIPRJMOD}/../shared_schematics/PT_module.kicad_sch"
 			(at 46.99 63.5766 0)
 			(effects
 				(font
@@ -5819,7 +5807,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../PT_module/PT_module.kicad_sch"
+		(property "Sheetfile" "${KIPRJMOD}/../shared_schematics/PT_module.kicad_sch"
 			(at 46.99 94.0566 0)
 			(effects
 				(font
@@ -5877,7 +5865,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../TC_module/TC_module.kicad_sch"
+		(property "Sheetfile" "${KIPRJMOD}/../shared_schematics/TC_module.kicad_sch"
 			(at 151.638 137.9986 0)
 			(effects
 				(font

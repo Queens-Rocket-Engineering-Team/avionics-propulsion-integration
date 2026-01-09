@@ -1264,7 +1264,6 @@
 	(hierarchical_label "TC_P"
 		(shape input)
 		(at 157.48 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1276,7 +1275,6 @@
 	(hierarchical_label "TC_P_CLAMPED"
 		(shape input)
 		(at 157.48 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1288,7 +1286,6 @@
 	(hierarchical_label "TMP-OUT"
 		(shape input)
 		(at 125.73 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1300,7 +1297,6 @@
 	(hierarchical_label "TC_N"
 		(shape input)
 		(at 165.1 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1312,7 +1308,6 @@
 	(hierarchical_label "TC_N_CLAMPED"
 		(shape input)
 		(at 165.1 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1391,7 +1386,7 @@
 			(uuid "a6d887a4-1d15-4385-8e23-a952e2b299ee")
 		)
 		(instances
-			(project "TC_module"
+			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "R25")
 					(unit 1)
@@ -1464,7 +1459,7 @@
 			(uuid "89a16036-372e-492f-b45d-aeaecfdc1a14")
 		)
 		(instances
-			(project "TC_module"
+			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "#PWR0108")
 					(unit 1)
@@ -1535,7 +1530,7 @@
 			(uuid "7d4021b4-4182-46be-8363-766275d11655")
 		)
 		(instances
-			(project "TC_module"
+			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "#PWR0106")
 					(unit 1)
@@ -1619,7 +1614,7 @@
 			(uuid "cf7a6889-9b73-49e6-bca3-df7591eae637")
 		)
 		(instances
-			(project "TC_module"
+			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "R26")
 					(unit 1)
@@ -1701,7 +1696,7 @@
 			(uuid "75e8e21d-0a88-4465-99ce-14efa26b89df")
 		)
 		(instances
-			(project "TC_module"
+			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "R29")
 					(unit 1)
@@ -1774,7 +1769,7 @@
 			(uuid "2df33cde-e056-402e-b8f9-a8cb8b86520f")
 		)
 		(instances
-			(project "TC_module"
+			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "#PWR0105")
 					(unit 1)
@@ -1856,7 +1851,7 @@
 			(uuid "6291b4b8-a3c3-4d11-9e68-d9024e0fcac9")
 		)
 		(instances
-			(project "TC_module"
+			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "R24")
 					(unit 1)
@@ -1940,7 +1935,7 @@
 			(uuid "dcb8e400-fd2d-48c3-b689-6b39a7aac0f4")
 		)
 		(instances
-			(project "TC_module"
+			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "R27")
 					(unit 1)
@@ -2012,7 +2007,7 @@
 			(uuid "d555e070-4dd3-4262-bdf1-a0c8cc98e5de")
 		)
 		(instances
-			(project "TC_module"
+			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "#PWR0107")
 					(unit 1)
@@ -2094,7 +2089,7 @@
 			(uuid "4bb37c2e-cc7d-4bc3-b823-ae61b7240308")
 		)
 		(instances
-			(project "TC_module"
+			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "R40")
 					(unit 1)
@@ -2190,7 +2185,7 @@
 			(uuid "b6f575f6-9113-4f06-b5fd-1bc3bc2b4ec1")
 		)
 		(instances
-			(project "TC_module"
+			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "D18")
 					(unit 2)
@@ -2286,7 +2281,7 @@
 			(uuid "2c06bc88-05f5-47ec-b6d3-f4a25bd0a314")
 		)
 		(instances
-			(project "TC_module"
+			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "D18")
 					(unit 1)
@@ -2358,7 +2353,7 @@
 			(uuid "f4f49324-8ce8-4850-8ff0-0e53f44f2512")
 		)
 		(instances
-			(project "TC_module"
+			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "#PWR0109")
 					(unit 1)
@@ -2451,7 +2446,7 @@
 			(uuid "df44ce8f-c9fa-4d61-b0f1-72ae8346bf1b")
 		)
 		(instances
-			(project "TC_module"
+			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "TH1")
 					(unit 1)
@@ -2522,7 +2517,7 @@
 			(uuid "03b11f11-de0e-4e6c-89a5-c5ae3bd000bc")
 		)
 		(instances
-			(project "TC_module"
+			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "#PWR0111")
 					(unit 1)
@@ -2595,7 +2590,7 @@
 			(uuid "d8f322c7-b0e0-4a2a-819c-4c4728780b29")
 		)
 		(instances
-			(project "TC_module"
+			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "#PWR0110")
 					(unit 1)
@@ -2667,7 +2662,7 @@
 			(uuid "27be7603-f822-42ce-88cf-2cd7bb6aec5a")
 		)
 		(instances
-			(project "TC_module"
+			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "#PWR0104")
 					(unit 1)
@@ -2749,7 +2744,7 @@
 			(uuid "0def6b42-4d0e-43e3-940c-be1822548086")
 		)
 		(instances
-			(project "TC_module"
+			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "R28")
 					(unit 1)
@@ -2833,7 +2828,7 @@
 			(uuid "29abde8a-fb37-4ef8-90a9-96c6164448e1")
 		)
 		(instances
-			(project "TC_module"
+			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
 					(reference "J7")
 					(unit 1)
